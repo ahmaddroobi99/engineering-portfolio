@@ -1,0 +1,4274 @@
+{
+  "generatedAt": "2026-08-30T00:41:38.642490+00:00",
+  "source": "GitHub public API via authenticated gh (build-time index)",
+  "username": "ahmaddroobi99",
+  "profile": {
+    "login": "ahmaddroobi99",
+    "name": "Ahmad D",
+    "followers": 188,
+    "following": 5,
+    "publicRepos": 181,
+    "avatar": "https://avatars.githubusercontent.com/u/55400034?v=4",
+    "htmlUrl": "https://github.com/ahmaddroobi99",
+    "createdAt": "2019-09-16T15:05:53Z"
+  },
+  "totals": {
+    "public": 181,
+    "originalIndexed": 106,
+    "forksSkipped": 69,
+    "selected": 50
+  },
+  "scoring": {
+    "weights": {
+      "technicalRelevance": 0.25,
+      "activity": 0.2,
+      "documentation": 0.15,
+      "visualDemo": 0.15,
+      "complexity": 0.1,
+      "stars": 0.05,
+      "completeness": 0.05,
+      "recency": 0.05
+    },
+    "notes": "Forks of upstream libraries are excluded from ranking. Stars are a 5% term only. Scores are not inflated."
+  },
+  "projects": [
+    {
+      "id": "qg-lada-lab",
+      "name": "qg-lada-lab",
+      "fullName": "ahmaddroobi99/qg-lada-lab",
+      "url": "https://github.com/ahmaddroobi99/qg-lada-lab",
+      "description": "Interactive barotropic QG Lagrangian data assimilation lab \u2014 WHERE EnKF reconstructs streamfunction from drifters (Droobi, MSc Calgary 2025)",
+      "homepage": "https://qg-lada-lab.netlify.app",
+      "language": "TypeScript",
+      "languages": {
+        "TypeScript": 275618,
+        "JavaScript": 173467,
+        "Python": 35522,
+        "CSS": 8301,
+        "HTML": 5658,
+        "Shell": 272
+      },
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "sizeKb": 21002,
+      "defaultBranch": "main",
+      "license": null,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2026-08-29T17:59:18Z",
+      "updatedAt": "2026-08-29T18:09:56Z",
+      "pushedAt": "2026-08-29T18:09:26Z",
+      "hasPages": false,
+      "category": "Scientific Computing",
+      "signalScore": 70.4,
+      "signalBreakdown": {
+        "relevance": 95,
+        "activity": 95,
+        "documentation": 70,
+        "visual": 8,
+        "complexity": 72,
+        "stars": 0,
+        "completeness": 85,
+        "recency": 90
+      },
+      "status": "Active",
+      "health": "Healthy",
+      "issues": [
+        "Missing license",
+        "Missing screenshots",
+        "Missing demo"
+      ],
+      "fourLines": [
+        "Interactive barotropic QG Lagrangian data assimilation lab \u2014 WHERE EnKF reconstructs streamfunction from drifters (Droobi, MSc Calgary 2025).",
+        "Live: qg-lada-lab.netlify.app \u00b7 Lab The browser Lab runs a spectral quasi-geostrophic twin and a localized stochastic EnKF (WHERE, thesis Algorithm 5) with an optional hybrid EnKF\u2013PF branch (Algorithms 8\u20139).",
+        "Detected stack: TypeScript, JavaScript, Python, CSS.",
+        "Every term in \u2202q/\u2202t + J(\u03c8, q) + \u03b2 \u2202\u03c8/\u2202x = F \u2212 d q \u2212 \u03bd (\u2212\u2207\u00b2)\u1d56 q q = \u2207\u00b2\u03c8 \u2212 \u03bc\u03c8 \u03c8\u0302 = \u2212q\u0302 / (\u03ba\u00b2 + \u03bc) can be switched off, and every filter knob (N e, L, \u03c3 o, inflation, Gaspari\u2013Cohn radius, analysis interval, stochastic vs deterministic) is live"
+      ],
+      "tech": [
+        "TypeScript",
+        "JavaScript",
+        "Python",
+        "CSS",
+        "HTML",
+        "Shell"
+      ],
+      "learning": [
+        "TypeScript",
+        "Scientific Computing"
+      ],
+      "cover": null,
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/qg-lada-lab",
+      "images": [],
+      "gifs": [],
+      "mediaKind": "generated",
+      "readmeExcerpt": "# QG Lagrangian DA lab\n\nInteractive reconstruction of the barotropic streamfunction from Lagrangian drifters.\n\n**Live:** [qg-lada-lab.netlify.app](https://qg-lada-lab.netlify.app) \u00b7 [Lab](https://qg-lada-lab.netlify.app/simulate)\n\nThe browser **Lab** runs a spectral quasi-geostrophic twin and a localized stochastic EnKF (WHERE, thesis Algorithm 5) with an optional hybrid EnKF\u2013PF branch (Algorithms 8\u20139). Every term in\n\n```\n\u2202q/\u2202t + J(\u03c8, q) + \u03b2 \u2202\u03c8/\u2202x = F \u2212 d q \u2212 \u03bd (\u2212\u2207\u00b2)\u1d56 q\nq = \u2207\u00b2\u03c8 \u2212 \u03bc\u03c8\n\u03c8\u0302 = \u2212q\u0302 / (\u03ba\u00b2 + \u03bc)\n```\n\ncan be switched off, and every filter knob (N_e, L, \u03c3_o, inflation, Gaspari\u2013Cohn radius, analysis interval, stochastic vs deterministic) is live.\n\nPython solver (same operators, committed N = 32 run, XCOR 0.964): [`research/qg_lada.py`](research/qg_lada.py). Also in [ahmaddroobi99/QG_work](https://github.com/ahmaddroobi99/QG_work).\n\nThesis: Droobi, A. H. (2025). *Data-Driven Filtering Techniques for Turbulent Flow Models (A Lagrangian Data Assimilation Approach)*. MSc, University of Calgary. [Scholaris](https://ucalgary.scholaris.ca/items/b4a3d3b9-4fbf-4d1e-8e1e-80c71c009825).\n\n## Run the Python experiment\n\n```bash\npip install -r research/requirements.txt\npython research/qg_lada",
+      "hasReadme": true,
+      "featured": true,
+      "rank": 1,
+      "domain": "scientific"
+    },
+    {
+      "id": "ridgeflight",
+      "name": "ridgeflight",
+      "fullName": "ahmaddroobi99/ridgeflight",
+      "url": "https://github.com/ahmaddroobi99/ridgeflight",
+      "description": "Low-poly 3D terrain flyer \u2014 mouse-look, keyboard thrust, day/night lighting.",
+      "homepage": null,
+      "language": "TypeScript",
+      "languages": {
+        "TypeScript": 216873,
+        "JavaScript": 173467,
+        "CSS": 8275,
+        "HTML": 5658,
+        "Shell": 272
+      },
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "sizeKb": 0,
+      "defaultBranch": "main",
+      "license": null,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2026-08-30T00:21:36Z",
+      "updatedAt": "2026-08-30T00:30:37Z",
+      "pushedAt": "2026-08-30T00:30:25Z",
+      "hasPages": false,
+      "category": "Systems",
+      "signalScore": 69.7,
+      "signalBreakdown": {
+        "relevance": 76,
+        "activity": 95,
+        "documentation": 70,
+        "visual": 48,
+        "complexity": 52,
+        "stars": 0,
+        "completeness": 85,
+        "recency": 90
+      },
+      "status": "Active",
+      "health": "Healthy",
+      "issues": [
+        "Missing license",
+        "Missing demo"
+      ],
+      "fourLines": [
+        "Low-poly 3D terrain flyer \u2014 mouse-look, keyboard thrust, day/night lighting.",
+        "Fly a hover-craft over a faceted island chain with mouse-look, keyboard thrust, ground collision, and a height-colored terrain mesh.",
+        "Detected stack: TypeScript, JavaScript, CSS, HTML.",
+        "Fly - Mouse \u2014 look (click to lock pointer; drag on touch) - W / S \u2014 thrust / brake - A / D \u2014 yaw left / right - Space / Shift \u2014 climb / descend - F \u2014 wireframe - N \u2014 day / night - Esc \u2014 pause The hull will not pass through the ground."
+      ],
+      "tech": [
+        "TypeScript",
+        "JavaScript",
+        "CSS",
+        "HTML",
+        "Shell"
+      ],
+      "learning": [
+        "TypeScript",
+        "AI"
+      ],
+      "cover": "https://raw.githubusercontent.com/ahmaddroobi99/ridgeflight/main/public/og.jpg",
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/ridgeflight",
+      "images": [
+        "https://raw.githubusercontent.com/ahmaddroobi99/ridgeflight/main/public/og.jpg"
+      ],
+      "gifs": [],
+      "mediaKind": "readme",
+      "readmeExcerpt": "# Ridgeflight\n\nA low-poly 3D aerial scout. Fly a hover-craft over a faceted island chain with mouse-look, keyboard thrust, ground collision, and a height-colored terrain mesh.\n\n![Ridgeflight](public/og.jpg)\n\n## Fly\n\n- **Mouse** \u2014 look (click to lock pointer; drag on touch)\n- **W / S** \u2014 thrust / brake\n- **A / D** \u2014 yaw left / right\n- **Space / Shift** \u2014 climb / descend\n- **F** \u2014 wireframe\n- **N** \u2014 day / night\n- **Esc** \u2014 pause\n\nThe hull will not pass through the ground. On a phone, the left stick is thrust/yaw and the chevrons climb or descend.\n\n## Stack\n\nReact 19, TanStack Start, Three.js, React Three Fiber, Tailwind v4.\n\n## Run\n\n```bash\nnpm install\nnpm run dev\n```\n\nOpen the printed local URL. Production build:\n\n```bash\nnpm run build\nnpm run preview\n```\n\n## License\n\nSource in this repository is provided as-is for the Ridgeflight demo.\n",
+      "hasReadme": true,
+      "featured": false,
+      "rank": 2,
+      "domain": "systems"
+    },
+    {
+      "id": "ai-engineering-command-center",
+      "name": "ai-engineering-command-center",
+      "fullName": "ahmaddroobi99/ai-engineering-command-center",
+      "url": "https://github.com/ahmaddroobi99/ai-engineering-command-center",
+      "description": "Enterprise AI Engineering Command Center \u2014 observability dashboard for AI services, models, GPUs, and incidents",
+      "homepage": null,
+      "language": "TypeScript",
+      "languages": {
+        "TypeScript": 245123,
+        "JavaScript": 173467,
+        "CSS": 9717,
+        "HTML": 5658,
+        "Shell": 272
+      },
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "sizeKb": 401,
+      "defaultBranch": "main",
+      "license": null,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2026-08-29T23:20:53Z",
+      "updatedAt": "2026-08-29T23:48:28Z",
+      "pushedAt": "2026-08-29T23:21:23Z",
+      "hasPages": false,
+      "category": "AI",
+      "signalScore": 69.2,
+      "signalBreakdown": {
+        "relevance": 95,
+        "activity": 95,
+        "documentation": 70,
+        "visual": 8,
+        "complexity": 60,
+        "stars": 0,
+        "completeness": 85,
+        "recency": 90
+      },
+      "status": "Active",
+      "health": "Healthy",
+      "issues": [
+        "Missing license",
+        "Missing screenshots",
+        "Missing demo"
+      ],
+      "fourLines": [
+        "Enterprise AI Engineering Command Center \u2014 observability dashboard for AI services, models, GPUs, and incidents.",
+        "Version 1 runs entirely in the browser on generated telemetry \u2014 no database, no API keys, no backend.",
+        "Detected stack: TypeScript, JavaScript, CSS, HTML.",
+        "Product: AI infrastructure, model performance and service reliability."
+      ],
+      "tech": [
+        "TypeScript",
+        "JavaScript",
+        "CSS",
+        "HTML",
+        "Shell"
+      ],
+      "learning": [
+        "TypeScript",
+        "AI",
+        "React"
+      ],
+      "cover": null,
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/ai-engineering-command-center",
+      "images": [],
+      "gifs": [],
+      "mediaKind": "generated",
+      "readmeExcerpt": "# AI Engineering Command Center\n\nInternal-style observability console for an AI platform: services, models, GPUs, cloud cost, and incidents. Version 1 runs entirely in the browser on generated telemetry \u2014 no database, no API keys, no backend.\n\n**Product:** AI infrastructure, model performance and service reliability.\n\n## Architecture (this version)\n\n```\nBrowser\n  \u2514\u2500\u2500 React UI (TanStack Router)\n        \u251c\u2500\u2500 Zustand ops store (live simulation)\n        \u251c\u2500\u2500 Mock catalogs (services, models, infra, incidents)\n        \u2514\u2500\u2500 Recharts time series\n```\n\nThere is no network hop for metrics. A 2.5s interval walks GPU, latency, and request counters around realistic envelopes so the console feels live without random noise.\n\n## Technology\n\n- React 19 + TypeScript\n- TanStack Start / Router\n- Tailwind CSS v4\n- Zustand\n- Recharts\n- Lucide icons\n- cmdk command palette\n\n## How to run locally\n\n```bash\nnpm install\nnpm run dev\n```\n\nOpen the preview. `npm run build` produces the production bundle. `npm run typecheck` validates TypeScript.\n\n## Mock data\n\n| Module | Role |\n| --- | --- |\n| `src/data/mock-services.ts` | 12 microservices with SLO-style uptime |\n| `src/data/mock-models.ts` | YOLO, VLM, embeddings, ",
+      "hasReadme": true,
+      "featured": false,
+      "rank": 3,
+      "domain": "ai"
+    },
+    {
+      "id": "forge-mind",
+      "name": "forge-mind",
+      "fullName": "ahmaddroobi99/forge-mind",
+      "url": "https://github.com/ahmaddroobi99/forge-mind",
+      "description": "A CAD-aware physical intelligence workbench for vision, simulation, control, and explainable engineering AI",
+      "homepage": null,
+      "language": "Python",
+      "languages": {
+        "Python": 3095
+      },
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "sizeKb": 8,
+      "defaultBranch": "master",
+      "license": "NOASSERTION",
+      "fork": false,
+      "archived": false,
+      "createdAt": "2026-08-28T02:48:34Z",
+      "updatedAt": "2026-08-28T02:50:08Z",
+      "pushedAt": "2026-08-28T02:49:45Z",
+      "hasPages": false,
+      "category": "Computer Vision",
+      "signalScore": 68.5,
+      "signalBreakdown": {
+        "relevance": 92,
+        "activity": 95,
+        "documentation": 85,
+        "visual": 8,
+        "complexity": 30,
+        "stars": 0,
+        "completeness": 100,
+        "recency": 90
+      },
+      "status": "Active",
+      "health": "Healthy",
+      "issues": [
+        "Missing screenshots",
+        "Missing demo"
+      ],
+      "fourLines": [
+        "A CAD-aware physical intelligence workbench for vision, simulation, control, and explainable engineering AI.",
+        "ForgeMind is a small, reproducible workbench for connecting the disciplines behind modern engineering AI: - 3D/CAD context and geometric constraints - computer vision and sensor fusion - simulation and sim-to-real experiments - state estima",
+        "Detected stack: Python.",
+        "The architecture is designed so real CAD kernels, cameras, simulators, and learned models can be added without replacing the decision contract."
+      ],
+      "tech": [
+        "Python"
+      ],
+      "learning": [
+        "Python",
+        "Computer Vision"
+      ],
+      "cover": null,
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/forge-mind",
+      "images": [],
+      "gifs": [],
+      "mediaKind": "generated",
+      "readmeExcerpt": "# ForgeMind\n\n**CAD-aware physical intelligence for safer, more explainable engineering.**\n\nForgeMind is a small, reproducible workbench for connecting the disciplines behind modern engineering AI:\n\n- 3D/CAD context and geometric constraints\n- computer vision and sensor fusion\n- simulation and sim-to-real experiments\n- state estimation and feedback control\n- edge inference and latency budgets\n- human-readable evidence for every decision\n\nThe first vertical slice is deliberately modest: ingest geometric reference data, fuse noisy observations, score an anomaly, and emit an explanation that a human engineer can inspect. The architecture is designed so real CAD kernels, cameras, simulators, and learned models can be added without replacing the decision contract.\n\n## Design principles\n\n1. **Evidence before confidence:** every result carries observations, thresholds, and provenance.\n2. **Physics-aware interfaces:** geometry and control constraints are first-class inputs, not post-processing.\n3. **Replayable experiments:** deterministic inputs make latency and quality regressions measurable.\n4. **Safe by default:** examples target inspection and maintenance workflows, not weapon guidance ",
+      "hasReadme": true,
+      "featured": true,
+      "rank": 4,
+      "domain": "computer-vision"
+    },
+    {
+      "id": "mosqguard",
+      "name": "mosqguard",
+      "fullName": "ahmaddroobi99/mosqguard",
+      "url": "https://github.com/ahmaddroobi99/mosqguard",
+      "description": "Open hardware mosquito monitoring and fan-trap system from prototype to production architecture",
+      "homepage": null,
+      "language": "Python",
+      "languages": {
+        "Python": 2866
+      },
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "sizeKb": 5,
+      "defaultBranch": "master",
+      "license": "NOASSERTION",
+      "fork": false,
+      "archived": false,
+      "createdAt": "2026-08-28T02:50:42Z",
+      "updatedAt": "2026-08-28T02:53:38Z",
+      "pushedAt": "2026-08-28T02:51:53Z",
+      "hasPages": false,
+      "category": "Robotics",
+      "signalScore": 68.5,
+      "signalBreakdown": {
+        "relevance": 92,
+        "activity": 95,
+        "documentation": 85,
+        "visual": 8,
+        "complexity": 30,
+        "stars": 0,
+        "completeness": 100,
+        "recency": 90
+      },
+      "status": "Active",
+      "health": "Healthy",
+      "issues": [
+        "Missing screenshots",
+        "Missing demo"
+      ],
+      "fourLines": [
+        "Open hardware mosquito monitoring and fan-trap system from prototype to production architecture.",
+        "MosqGuard is a practical hardware project for reducing mosquito activity around homes and outdoor work areas without pesticides, high-voltage grids, or harmful directed energy.",
+        "Detected stack: Python.",
+        "It combines environmental sensing, optional optical/acoustic classification, a CO\u2082/heat lure, and a ducted fan with a removable capture cartridge."
+      ],
+      "tech": [
+        "Python"
+      ],
+      "learning": [
+        "Python",
+        "Robotics"
+      ],
+      "cover": null,
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/mosqguard",
+      "images": [],
+      "gifs": [],
+      "mediaKind": "generated",
+      "readmeExcerpt": "# MosqGuard\n\n**An open, non-toxic mosquito monitoring and fan-trap platform.**\n\nMosqGuard is a practical hardware project for reducing mosquito activity around homes and outdoor work areas without pesticides, high-voltage grids, or harmful directed energy. It combines environmental sensing, optional optical/acoustic classification, a CO\u2082/heat lure, and a ducted fan with a removable capture cartridge.\n\n## System concept\n\n```text\nair + light + temperature sensors\n              |\n              v\n       edge activity score -----> local status / telemetry\n              |\n              v\n    safe state machine controller\n       |                    |\n       v                    v\n  lure control         fan + capture cartridge\n```\n\nThe first prototype intentionally uses a conservative rule-based score. A trained model can replace the scorer later, but the safety state machine and hardware interlocks remain authoritative.\n\n## Safety boundaries\n\n- No pesticides, electrocution, combustion, lasers, or harmful radiation.\n- Fan starts only when the cartridge is latched and the intake guard is closed.\n- Lure and fan have independent timeouts and thermal/current protection.\n- Manual stop always o",
+      "hasReadme": true,
+      "featured": true,
+      "rank": 5,
+      "domain": "robotics"
+    },
+    {
+      "id": "aether-visualizer",
+      "name": "aether-visualizer",
+      "fullName": "ahmaddroobi99/aether-visualizer",
+      "url": "https://github.com/ahmaddroobi99/aether-visualizer",
+      "description": "Aether \u2014 cinematic music visualizer for microphone and tracks",
+      "homepage": "https://ahmaddroobi99.github.io/aether-visualizer/",
+      "language": "TypeScript",
+      "languages": {
+        "TypeScript": 213803,
+        "JavaScript": 173467,
+        "CSS": 8980,
+        "HTML": 5658,
+        "Shell": 272
+      },
+      "topics": [
+        "canvas",
+        "music-visualizer",
+        "react",
+        "web-audio"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "sizeKb": 454,
+      "defaultBranch": "main",
+      "license": null,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2026-08-29T13:46:12Z",
+      "updatedAt": "2026-08-29T14:36:23Z",
+      "pushedAt": "2026-08-29T14:36:04Z",
+      "hasPages": false,
+      "category": "Web",
+      "signalScore": 67.5,
+      "signalBreakdown": {
+        "relevance": 69,
+        "activity": 95,
+        "documentation": 80,
+        "visual": 30,
+        "complexity": 60,
+        "stars": 0,
+        "completeness": 85,
+        "recency": 90
+      },
+      "status": "Active",
+      "health": "Healthy",
+      "issues": [
+        "Missing license",
+        "Missing screenshots"
+      ],
+      "fourLines": [
+        "Aether \u2014 cinematic music visualizer for microphone and tracks.",
+        "Feed a microphone or an audio file and watch bars, rings, and waves follow the sound.",
+        "Detected stack: TypeScript, JavaScript, CSS, HTML.",
+        "Live: ahmaddroobi99.github.io/aether-visualizer Features - Microphone input or uploaded / dropped tracks - Five modes: Bars, Mirror, Radial, Orbit, Wave - Color themes: Ice, Ember, Moss, Bloom, Noir, Rose - Sensitivity, play/pause, seek, vo"
+      ],
+      "tech": [
+        "TypeScript",
+        "JavaScript",
+        "CSS",
+        "HTML",
+        "Shell"
+      ],
+      "learning": [
+        "TypeScript",
+        "Web"
+      ],
+      "cover": null,
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/aether-visualizer",
+      "images": [],
+      "gifs": [],
+      "mediaKind": "generated",
+      "readmeExcerpt": "# Aether\n\nA cinematic music visualizer. Feed a microphone or an audio file and watch bars, rings, and waves follow the sound.\n\n**Live:** [ahmaddroobi99.github.io/aether-visualizer](https://ahmaddroobi99.github.io/aether-visualizer/)\n\n## Features\n\n- Microphone input or uploaded / dropped tracks\n- Five modes: Bars, Mirror, Radial, Orbit, Wave\n- Color themes: Ice, Ember, Moss, Bloom, Noir, Rose\n- Sensitivity, play/pause, seek, volume, fullscreen\n- Keyboard: Space play/pause, F fullscreen, 1\u20135 modes, M mute\n\n## Run locally\n\n```bash\nnpm install\nnpm run dev\n```\n\nThen open the URL shown in the terminal (defaults to port 8080).\n\n```bash\nnpm run build\nnpm run preview\n```\n\nGitHub Pages builds a static prerender (`GITHUB_PAGES=true`) so the visualizer can run without a server.\n\n## Stack\n\nReact, TanStack Start, Tailwind CSS, Web Audio API, Canvas 2D.\n",
+      "hasReadme": true,
+      "featured": true,
+      "rank": 6,
+      "domain": "software"
+    },
+    {
+      "id": "aetherforge",
+      "name": "aetherforge",
+      "fullName": "ahmaddroobi99/aetherforge",
+      "url": "https://github.com/ahmaddroobi99/aetherforge",
+      "description": "Enterprise AI control plane: 12 production AI-engineering products in one coherent platform (regression, cost autopilot, forensics, RAG, gateway, flags, and more).",
+      "homepage": "https://www.facebook.com/share/r/1ERDzwWu2f/",
+      "language": "Not detected",
+      "languages": {},
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 1,
+      "sizeKb": 4,
+      "defaultBranch": "main",
+      "license": "NOASSERTION",
+      "fork": false,
+      "archived": false,
+      "createdAt": "2026-08-28T12:46:33Z",
+      "updatedAt": "2026-08-28T12:50:49Z",
+      "pushedAt": "2026-08-28T12:54:44Z",
+      "hasPages": false,
+      "category": "AI",
+      "signalScore": 66.5,
+      "signalBreakdown": {
+        "relevance": 95,
+        "activity": 95,
+        "documentation": 85,
+        "visual": 8,
+        "complexity": 10,
+        "stars": 0,
+        "completeness": 85,
+        "recency": 90
+      },
+      "status": "Active",
+      "health": "Healthy",
+      "issues": [
+        "Missing screenshots",
+        "Missing demo",
+        "Language undetected"
+      ],
+      "fourLines": [
+        "Enterprise AI control plane: 12 production AI-engineering products in one coherent platform (regression, cost autopilot, forensics, RAG, gateway, flags, and more).",
+        "AetherForge turns the twelve AI-engineer builds that actually get $150k\u2013$200k interviews into a single installable platform.",
+        "Detected stack: Not detected.",
+        "It is one operating system: a gateway in front, cost and cache in the hot path, RAG / SQL / prompts as features, and regression, forensics, arbitration, docs, fine-tunes, and flags as the control plane that keeps those features honest after"
+      ],
+      "tech": [],
+      "learning": [
+        "AI"
+      ],
+      "cover": null,
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/aetherforge",
+      "images": [],
+      "gifs": [],
+      "mediaKind": "generated",
+      "readmeExcerpt": "# AetherForge\n\n**Enterprise AI control plane \u2014 twelve production systems, one coherent product.**\n\nAetherForge turns the twelve AI-engineer builds that actually get $150k\u2013$200k interviews into a single installable platform. It is not twelve toy repos. It is one operating system: a gateway in front, cost and cache in the hot path, RAG / SQL / prompts as features, and regression, forensics, arbitration, docs, fine-tunes, and flags as the control plane that keeps those features honest after deploy.\n\nSource reel: [Bashiri Smith \u2014 12 AI Engineer projects](https://www.facebook.com/share/r/1ERDzwWu2f/) (Facebook video `1413290347355555`).\n\n## The twelve products\n\n| # | Product | What ships |\n| --- | --- | --- |\n| 1 | **Model Regression Detection** | Golden-set CI for prompts and models. Alerts before users see a quality drop. |\n| 2 | **LLM Cost Autopilot** | Routes each request to the cheapest model that still clears a quality floor. |\n| 3 | **Failure Forensics** | Traces multi-step pipelines, pins the first bad span, grows an eval set from failures. |\n| 4 | **Self-Healing Docs** | Diffs public code symbols against markdown and drafts a correction patch. |\n| 5 | **Output Arbitration** | C",
+      "hasReadme": true,
+      "featured": false,
+      "rank": 7,
+      "domain": "ai"
+    },
+    {
+      "id": "wake",
+      "name": "wake",
+      "fullName": "ahmaddroobi99/wake",
+      "url": "https://github.com/ahmaddroobi99/wake",
+      "description": "Interactive particle field that swirls toward the cursor",
+      "homepage": "https://wake-field.netlify.app",
+      "language": "TypeScript",
+      "languages": {
+        "TypeScript": 191696,
+        "JavaScript": 173467,
+        "CSS": 8613,
+        "HTML": 5658,
+        "Shell": 352
+      },
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "sizeKb": 422,
+      "defaultBranch": "main",
+      "license": null,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2026-08-29T17:07:34Z",
+      "updatedAt": "2026-08-29T17:18:07Z",
+      "pushedAt": "2026-08-29T17:17:27Z",
+      "hasPages": false,
+      "category": "Web",
+      "signalScore": 65.8,
+      "signalBreakdown": {
+        "relevance": 68,
+        "activity": 95,
+        "documentation": 70,
+        "visual": 30,
+        "complexity": 60,
+        "stars": 0,
+        "completeness": 85,
+        "recency": 90
+      },
+      "status": "Active",
+      "health": "Healthy",
+      "issues": [
+        "Missing license",
+        "Missing screenshots"
+      ],
+      "fourLines": [
+        "Interactive particle field that swirls toward the cursor.",
+        "Move the pointer to swirl the motes; click to burst them outward.",
+        "Detected stack: TypeScript, JavaScript, CSS, HTML.",
+        "Trails, color shifts, and a live force field do the rest."
+      ],
+      "tech": [
+        "TypeScript",
+        "JavaScript",
+        "CSS",
+        "HTML",
+        "Shell"
+      ],
+      "learning": [
+        "TypeScript",
+        "AI"
+      ],
+      "cover": null,
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/wake",
+      "images": [],
+      "gifs": [],
+      "mediaKind": "generated",
+      "readmeExcerpt": "# Wake\n\nAn interactive particle field. Move the pointer to swirl the motes; click to burst them outward. Trails, color shifts, and a live force field do the rest.\n\n**Live:** [wake-field.netlify.app](https://wake-field.netlify.app)\n\n## Controls\n\n- **Move** \u2014 particles orbit toward the cursor\n- **Click** \u2014 shockwave burst\n- **Hold** \u2014 tighter, stronger pull\n- **Particles / Force / Trails** \u2014 density, attraction, and wake length\n- **Background** \u2014 Void, Ink, Abyss, Dusk, Slate, Paper\n- **Color** \u2014 Speed, Orbit, Spectrum, Ember\n- **Clear** \u2014 wipe trails\n- **Reset** \u2014 restore defaults and reseed the field\n- **Save** \u2014 download a PNG of the canvas\n\n## Stack\n\nTanStack Start, React, Tailwind, Canvas 2D.\n",
+      "hasReadme": true,
+      "featured": false,
+      "rank": 8,
+      "domain": "software"
+    },
+    {
+      "id": "aws-from-scratch",
+      "name": "aws-from-scratch",
+      "fullName": "ahmaddroobi99/aws-from-scratch",
+      "url": "https://github.com/ahmaddroobi99/aws-from-scratch",
+      "description": "Educational mini-cloud: learn AWS and distributed systems by building a tiny working cloud locally, then mapping it onto AWS.",
+      "homepage": null,
+      "language": "Makefile",
+      "languages": {
+        "Makefile": 1057
+      },
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 1,
+      "sizeKb": 12,
+      "defaultBranch": "main",
+      "license": "MIT",
+      "fork": false,
+      "archived": false,
+      "createdAt": "2026-08-27T19:21:09Z",
+      "updatedAt": "2026-08-27T20:12:23Z",
+      "pushedAt": "2026-08-27T20:11:57Z",
+      "hasPages": false,
+      "category": "Cloud",
+      "signalScore": 65.2,
+      "signalBreakdown": {
+        "relevance": 84,
+        "activity": 95,
+        "documentation": 85,
+        "visual": 8,
+        "complexity": 18,
+        "stars": 0,
+        "completeness": 100,
+        "recency": 90
+      },
+      "status": "Active",
+      "health": "Healthy",
+      "issues": [
+        "Missing screenshots",
+        "Missing demo"
+      ],
+      "fourLines": [
+        "Educational mini-cloud: learn AWS and distributed systems by building a tiny working cloud locally, then mapping it onto AWS.",
+        "AWS is not a list of product names.",
+        "Detected stack: Makefile.",
+        "It is computer-science abstractions \u2014 processes, disks, packets, schedules \u2014 implemented at massive scale."
+      ],
+      "tech": [
+        "Makefile"
+      ],
+      "learning": [
+        "Makefile",
+        "Cloud"
+      ],
+      "cover": null,
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/aws-from-scratch",
+      "images": [],
+      "gifs": [],
+      "mediaKind": "generated",
+      "readmeExcerpt": "# aws-from-scratch\n\nA miniature cloud you can run on a laptop, then rent as an EC2 box.\n\nAWS is not a list of product names. It is computer-science abstractions \u2014 processes, disks, packets, schedules \u2014 implemented at massive scale.\n\n## Local setup\n\n```bash\ncp .env.example .env\n./scripts/setup.sh\n./scripts/run-local.sh\n```\n\nDocker: `docker compose up --build`\n\nAWS: read `docs/15-aws-deployment.md`, then `./scripts/deploy-aws.sh` and `./scripts/destroy-aws.sh`.\n\n## License\n\nMIT\n",
+      "hasReadme": true,
+      "featured": true,
+      "rank": 9,
+      "domain": "cloud"
+    },
+    {
+      "id": "world-pulse",
+      "name": "world-pulse",
+      "fullName": "ahmaddroobi99/world-pulse",
+      "url": "https://github.com/ahmaddroobi99/world-pulse",
+      "description": "World Pulse \u2014 choropleth atlas of global development indicators",
+      "homepage": "https://ahmaddroobi99.github.io/world-pulse/",
+      "language": "TypeScript",
+      "languages": {
+        "TypeScript": 207209,
+        "JavaScript": 173467,
+        "CSS": 9904,
+        "HTML": 5658,
+        "Shell": 352
+      },
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "sizeKb": 655,
+      "defaultBranch": "main",
+      "license": null,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2026-08-29T23:06:26Z",
+      "updatedAt": "2026-08-29T23:15:05Z",
+      "pushedAt": "2026-08-29T23:15:01Z",
+      "hasPages": true,
+      "category": "Data Science",
+      "signalScore": 65.1,
+      "signalBreakdown": {
+        "relevance": 76,
+        "activity": 95,
+        "documentation": 70,
+        "visual": 8,
+        "complexity": 66,
+        "stars": 0,
+        "completeness": 85,
+        "recency": 90
+      },
+      "status": "Active",
+      "health": "Healthy",
+      "issues": [
+        "Missing license",
+        "Missing screenshots",
+        "Missing demo"
+      ],
+      "fourLines": [
+        "World Pulse \u2014 choropleth atlas of global development indicators.",
+        "Color every country by GDP per capita, population, HDI, life expectancy, CO\u2082, or internet access.",
+        "Detected stack: TypeScript, JavaScript, CSS, HTML.",
+        "Pan and zoom the map, hover for a snapshot, and open a country for the full profile."
+      ],
+      "tech": [
+        "TypeScript",
+        "JavaScript",
+        "CSS",
+        "HTML",
+        "Shell"
+      ],
+      "learning": [
+        "TypeScript",
+        "AI"
+      ],
+      "cover": null,
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/world-pulse",
+      "images": [],
+      "gifs": [],
+      "mediaKind": "generated",
+      "readmeExcerpt": "# World Pulse\n\nA choropleth atlas of global development. Color every country by GDP per capita, population, HDI, life expectancy, CO\u2082, or internet access. Pan and zoom the map, hover for a snapshot, and open a country for the full profile.\n\nIllustrative 2022\u20132024 figures compiled from public World Bank / UNDP-style series.\n\n## Live\n\n- GitHub Pages: https://ahmaddroobi99.github.io/world-pulse/\n- Netlify: https://world-pulse-atlas.netlify.app\n\n## Use it\n\n- Switch metrics in the top bar \u2014 the map recolors immediately\n- Drag to pan, scroll or pinch to zoom, or use the controls\n- Click a country (or pick one from the ranking) to open its detail panel\n- Search by name or ISO3 code\n\n## Develop\n\n```bash\nnpm install\nnpm run dev\n```\n\n```bash\nnpm run build\nnpm run typecheck\n```\n",
+      "hasReadme": true,
+      "featured": false,
+      "rank": 10,
+      "domain": "software"
+    },
+    {
+      "id": "ai-lifecycle-100",
+      "name": "ai-lifecycle-100",
+      "fullName": "ahmaddroobi99/ai-lifecycle-100",
+      "url": "https://github.com/ahmaddroobi99/ai-lifecycle-100",
+      "description": "100 datasets, models, domains, and architectures mapped onto Sales + ML lifecycle steps. Starter kit with catalog, flows, and notebook cells.",
+      "homepage": null,
+      "language": "Not detected",
+      "languages": {},
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 1,
+      "sizeKb": 3,
+      "defaultBranch": "main",
+      "license": "MIT",
+      "fork": false,
+      "archived": false,
+      "createdAt": "2026-08-29T06:40:04Z",
+      "updatedAt": "2026-08-29T06:47:07Z",
+      "pushedAt": "2026-08-29T06:45:00Z",
+      "hasPages": false,
+      "category": "AI",
+      "signalScore": 63.7,
+      "signalBreakdown": {
+        "relevance": 84,
+        "activity": 95,
+        "documentation": 85,
+        "visual": 8,
+        "complexity": 10,
+        "stars": 0,
+        "completeness": 85,
+        "recency": 90
+      },
+      "status": "Active",
+      "health": "Healthy",
+      "issues": [
+        "Missing screenshots",
+        "Missing demo",
+        "Language undetected"
+      ],
+      "fourLines": [
+        "100 datasets, models, domains, and architectures mapped onto Sales + ML lifecycle steps. Starter kit with catalog, flows, and notebook cells.",
+        "ML lifecycle \u2014 problem \u2192 data \u2192 train \u2192 eval \u2192 deploy \u2192 monitor \u2192 agents 2.",
+        "Detected stack: Not detected.",
+        "Sales lifecycle \u2014 prospect \u2192 qualify \u2192 discover \u2192 demo \u2192 close \u2192 onboard \u2192 expand This is the starter kit that sits next to 200-dataset-websites (source hubs + papers) and the Vishnu.ai agent pack we pulled from the Facebook reel."
+      ],
+      "tech": [],
+      "learning": [
+        "AI"
+      ],
+      "cover": null,
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/ai-lifecycle-100",
+      "images": [],
+      "gifs": [],
+      "mediaKind": "generated",
+      "readmeExcerpt": "# AI Lifecycle 100\n\n**100 datasets, models, domains, and architectures** mapped onto two operating systems:\n\n1. **ML lifecycle** \u2014 problem \u2192 data \u2192 train \u2192 eval \u2192 deploy \u2192 monitor \u2192 agents\n2. **Sales lifecycle** \u2014 prospect \u2192 qualify \u2192 discover \u2192 demo \u2192 close \u2192 onboard \u2192 expand\n\nThis is the starter kit that sits next to [200-dataset-websites](https://github.com/ahmaddroobi99/200-dataset-websites) (source hubs + papers) and the Vishnu.ai agent pack we pulled from the Facebook reel.\n\n| File | What it is |\n| --- | --- |\n| [CATALOG.md](CATALOG.md) | The 100 resources, numbered, with type / domain / lifecycle step / why |\n| [ML_LIFECYCLE.md](ML_LIFECYCLE.md) | 10 ML stages. Each stage lists the catalog IDs to open first |\n| [SALES_LIFECYCLE.md](SALES_LIFECYCLE.md) | 8 sales stages. Each stage maps to the ML artifact a buyer actually wants |\n| [AGENT_STACK.md](AGENT_STACK.md) | The 7 Vishnu.ai agent repos + token-savers from the Facebook reel |\n| [notebooks/lifecycle.ipynb](notebooks/lifecycle.ipynb) | Same flow as **cells**. Run top to bottom. One cell = one stage |\n\n```mermaid\nflowchart LR\n  subgraph Sales\n    S1[Prospect] --> S2[Qualify] --> S3[Discover] --> S4[Demo] --> S5[Close] --> ",
+      "hasReadme": true,
+      "featured": false,
+      "rank": 11,
+      "domain": "ai"
+    },
+    {
+      "id": "tensortonic-rag-from-scratch",
+      "name": "tensortonic-rag-from-scratch",
+      "fullName": "ahmaddroobi99/tensortonic-rag-from-scratch",
+      "url": "https://github.com/ahmaddroobi99/tensortonic-rag-from-scratch",
+      "description": "TensorTonic RAG from Scratch \u2014 retrieval, grounding, and evaluation in plain Python. Architecture, eval results, and visual README.",
+      "homepage": null,
+      "language": "Python",
+      "languages": {
+        "Python": 1554
+      },
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "sizeKb": 2,
+      "defaultBranch": "main",
+      "license": "MIT",
+      "fork": false,
+      "archived": false,
+      "createdAt": "2026-08-28T02:47:46Z",
+      "updatedAt": "2026-08-28T02:49:49Z",
+      "pushedAt": "2026-08-28T02:51:05Z",
+      "hasPages": false,
+      "category": "AI",
+      "signalScore": 62.0,
+      "signalBreakdown": {
+        "relevance": 92,
+        "activity": 95,
+        "documentation": 50,
+        "visual": 8,
+        "complexity": 30,
+        "stars": 0,
+        "completeness": 75,
+        "recency": 90
+      },
+      "status": "Active",
+      "health": "Healthy",
+      "issues": [
+        "Missing README",
+        "Missing screenshots",
+        "Missing demo"
+      ],
+      "fourLines": [
+        "TensorTonic RAG from Scratch \u2014 retrieval, grounding, and evaluation in plain Python. Architecture, eval results, and visual README.",
+        "The problem statement is not documented separately from the README and GitHub description.",
+        "Detected stack: Python.",
+        "Treat claims beyond the public README as not detected."
+      ],
+      "tech": [
+        "Python"
+      ],
+      "learning": [
+        "Python",
+        "AI"
+      ],
+      "cover": null,
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/tensortonic-rag-from-scratch",
+      "images": [],
+      "gifs": [],
+      "mediaKind": "generated",
+      "readmeExcerpt": null,
+      "hasReadme": false,
+      "featured": false,
+      "rank": 12,
+      "domain": "ai"
+    },
+    {
+      "id": "cad-design-datasets-100",
+      "name": "cad-design-datasets-100",
+      "fullName": "ahmaddroobi99/cad-design-datasets-100",
+      "url": "https://github.com/ahmaddroobi99/cad-design-datasets-100",
+      "description": "100 CAD design datasets with links, formats, and GIF previews. Parametric B-Rep, sketches, assemblies, text-to-CAD, and mesh design collections.",
+      "homepage": null,
+      "language": "Not detected",
+      "languages": {},
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 1,
+      "sizeKb": 3,
+      "defaultBranch": "main",
+      "license": "MIT",
+      "fork": false,
+      "archived": false,
+      "createdAt": "2026-08-29T07:11:19Z",
+      "updatedAt": "2026-08-29T07:14:49Z",
+      "pushedAt": "2026-08-29T07:14:45Z",
+      "hasPages": false,
+      "category": "Data Science",
+      "signalScore": 61.7,
+      "signalBreakdown": {
+        "relevance": 76,
+        "activity": 95,
+        "documentation": 85,
+        "visual": 8,
+        "complexity": 10,
+        "stars": 0,
+        "completeness": 85,
+        "recency": 90
+      },
+      "status": "Active",
+      "health": "Healthy",
+      "issues": [
+        "Missing screenshots",
+        "Missing demo",
+        "Language undetected"
+      ],
+      "fourLines": [
+        "100 CAD design datasets with links, formats, and GIF previews. Parametric B-Rep, sketches, assemblies, text-to-CAD, and mesh design collections.",
+        "This is a new catalog, not a copy of 200-dataset-websites list 32 (tools) or ai-lifecycle-100.",
+        "Detected stack: Not detected.",
+        "| File | What | | --- | --- | | CATALOG.md | The 100 datasets, numbered | | GIFS.md | Datasets and hubs that ship GIFs / turntable / video previews | mermaid flowchart LR S[2D sketch] -- F[Feature tree] F -- B[B-Rep / STEP] B -- A[Assembly "
+      ],
+      "tech": [],
+      "learning": [
+        "Systems"
+      ],
+      "cover": null,
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/cad-design-datasets-100",
+      "images": [],
+      "gifs": [],
+      "mediaKind": "generated",
+      "readmeExcerpt": "# CAD Design Datasets \u2014 100\n\nOne hundred **CAD / design datasets** with links, formats, and what they are actually good for.\n\nThis is a new catalog, not a copy of [200-dataset-websites](https://github.com/ahmaddroobi99/200-dataset-websites) list 32 (tools) or [ai-lifecycle-100](https://github.com/ahmaddroobi99/ai-lifecycle-100).\n\n| File | What |\n| --- | --- |\n| [CATALOG.md](CATALOG.md) | The 100 datasets, numbered |\n| [GIFS.md](GIFS.md) | Datasets and hubs that ship **GIFs / turntable / video** previews |\n\n```mermaid\nflowchart LR\n  S[2D sketch] --> F[Feature tree]\n  F --> B[B-Rep / STEP]\n  B --> A[Assembly + joints]\n  A --> M[Mesh / STL]\n  T[Text / image / video] --> F\n```\n\n## How to pick\n\n| You want | Open first |\n| --- | --- |\n| Real B-Rep solids | 1 ABC, 9 CC3D |\n| Human design history | 2\u20135 Fusion 360 Gallery, 6 DeepCAD |\n| Sketches + constraints | 7 SketchGraphs, 30 HPSketch |\n| Text \u2192 CAD | 12 Text2CAD, 15 Zero-to-CAD, 14 OmniCAD |\n| Machining features | 10 MFCAD, 11 MFCAD++ |\n| Assemblies / mates | 4 Fusion Assembly, 34 AutoMate |\n| Printable messiness | 55 Thingi10K |\n| GIF / video of the CAD UI | 28 VideoCAD + [GIFS.md](GIFS.md) |\n\nLicenses vary. Onshape / Fusion / vendor ",
+      "hasReadme": true,
+      "featured": false,
+      "rank": 13,
+      "domain": "software"
+    },
+    {
+      "id": "tensortonic-solutions",
+      "name": "TensorTonic-Solutions",
+      "fullName": "ahmaddroobi99/TensorTonic-Solutions",
+      "url": "https://github.com/ahmaddroobi99/TensorTonic-Solutions",
+      "description": "My solutions to TensorTonic problems",
+      "homepage": "https://tensortonic.com",
+      "language": "Not detected",
+      "languages": {},
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "sizeKb": 0,
+      "defaultBranch": "main",
+      "license": null,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2026-08-27T20:20:58Z",
+      "updatedAt": "2026-08-27T20:21:08Z",
+      "pushedAt": "2026-08-27T20:21:02Z",
+      "hasPages": false,
+      "category": "Education",
+      "signalScore": 60.7,
+      "signalBreakdown": {
+        "relevance": 84,
+        "activity": 95,
+        "documentation": 70,
+        "visual": 8,
+        "complexity": 10,
+        "stars": 0,
+        "completeness": 70,
+        "recency": 90
+      },
+      "status": "Active",
+      "health": "Healthy",
+      "issues": [
+        "Missing license",
+        "Missing screenshots",
+        "Missing demo",
+        "Language undetected"
+      ],
+      "fourLines": [
+        "My solutions to TensorTonic problems.",
+        "What is TensorTonic? TensorTonic is a platform where you can implement core algorithms of Machine Learning from scratch.",
+        "Detected stack: Not detected.",
+        "This repository contains my personal solutions to these problems, automatically synchronized from the platform"
+      ],
+      "tech": [],
+      "learning": [
+        "AI"
+      ],
+      "cover": null,
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/TensorTonic-Solutions",
+      "images": [],
+      "gifs": [],
+      "mediaKind": "generated",
+      "readmeExcerpt": "# TensorTonic Solutions\n\nWelcome to my TensorTonic solutions repository!\n\nHere you'll find my solutions to various machine learning and deep learning problems from [TensorTonic](https://tensortonic.com).\n\n## What is TensorTonic?\n\nTensorTonic is a platform where you can implement core algorithms of Machine Learning from scratch.\n\nThis repository contains my personal solutions to these problems, automatically synchronized from the platform.\n",
+      "hasReadme": true,
+      "featured": false,
+      "rank": 14,
+      "domain": "experiments"
+    },
+    {
+      "id": "200-dataset-websites",
+      "name": "200-dataset-websites",
+      "fullName": "ahmaddroobi99/200-dataset-websites",
+      "url": "https://github.com/ahmaddroobi99/200-dataset-websites",
+      "description": "200 dataset-source websites organized into 25 categories \u2014 AI/AGI, science, government, health, geo, finance, and more.",
+      "homepage": null,
+      "language": "Not detected",
+      "languages": {},
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "sizeKb": 66,
+      "defaultBranch": "main",
+      "license": null,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2026-08-27T02:10:53Z",
+      "updatedAt": "2026-08-29T06:23:32Z",
+      "pushedAt": "2026-08-29T06:23:18Z",
+      "hasPages": false,
+      "category": "Data Science",
+      "signalScore": 59.5,
+      "signalBreakdown": {
+        "relevance": 76,
+        "activity": 95,
+        "documentation": 70,
+        "visual": 8,
+        "complexity": 18,
+        "stars": 0,
+        "completeness": 70,
+        "recency": 90
+      },
+      "status": "Active",
+      "health": "Healthy",
+      "issues": [
+        "Missing license",
+        "Missing screenshots",
+        "Missing demo",
+        "Language undetected"
+      ],
+      "fourLines": [
+        "200 dataset-source websites organized into 25 categories \u2014 AI/AGI, science, government, health, geo, finance, and more.",
+        "| | | |---|---| | Datasets batch 1 | DATASET WEBSITES.md (sites 1\u2013200, 25 categories) | | Datasets batch 2 | DATASET WEBSITES BATCH2.md (sites 201\u2013400, 10 categories) | | Papers (full) | PAPERS.md (200 papers, 20 categories, GitHub stars) |",
+        "Detected stack: Not detected.",
+        "Treat claims beyond the public README as not detected."
+      ],
+      "tech": [],
+      "learning": [
+        "AI"
+      ],
+      "cover": null,
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/200-dataset-websites",
+      "images": [],
+      "gifs": [],
+      "mediaKind": "generated",
+      "readmeExcerpt": "# 400 Dataset Websites + 200 Papers\n\nCurated catalog of dataset-source websites and the papers that introduced them.\n\n| | |\n|---|---|\n| **Datasets batch 1** | [DATASET_WEBSITES.md](DATASET_WEBSITES.md) (sites 1\u2013200, 25 categories) |\n| **Datasets batch 2** | [DATASET_WEBSITES_BATCH2.md](DATASET_WEBSITES_BATCH2.md) (sites 201\u2013400, 10 categories) |\n| **Papers (full)** | [PAPERS.md](PAPERS.md) (200 papers, 20 categories, GitHub stars) |\n| **Papers 1\u2013100** | [PAPERS_PART1.md](PAPERS_PART1.md) |\n| **Papers 101\u2013200** | [PAPERS_PART2.md](PAPERS_PART2.md) |\n| **1,100 starred repos** | [STARRED_CLASSIFIED.md](STARRED_CLASSIFIED.md) (mapped onto the existing 35 lists) |\n| **Merged into lists 1\u201335** | Each existing category list now has a *Starred GitHub repos added to list N* subsection |\n| **List 32 (CAD / manufacturing)** | Full 35-row starred table under category 32 in [DATASET_WEBSITES_BATCH2.md](DATASET_WEBSITES_BATCH2.md) |\n| **Compiled** | August 2026 |\n\n## Category chart\n\n```mermaid\nflowchart TB\n  subgraph B1[\"Datasets batch 1 \u2014 25 x 8 = 200\"]\n    A1[AI/ML] --- A2[GI/reasoning] --- A3[Vision] --- A4[NLP] --- A5[Speech]\n    A6[Video] --- A7[Robotics] --- A8[Science] --- A9[Gov] --- A10",
+      "hasReadme": true,
+      "featured": false,
+      "rank": 15,
+      "domain": "software"
+    },
+    {
+      "id": "ahmaddroobi99.github.io",
+      "name": "ahmaddroobi99.github.io",
+      "fullName": "ahmaddroobi99/ahmaddroobi99.github.io",
+      "url": "https://github.com/ahmaddroobi99/ahmaddroobi99.github.io",
+      "description": "Personal link-in-bio \u2014 Ahmad Droobi",
+      "homepage": "https://ahmaddroobi99.github.io/**",
+      "language": "CSS",
+      "languages": {
+        "CSS": 75355,
+        "HTML": 53392,
+        "JavaScript": 9563
+      },
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "sizeKb": 1857,
+      "defaultBranch": "main",
+      "license": null,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2026-08-29T12:00:00Z",
+      "updatedAt": "2026-08-29T23:23:56Z",
+      "pushedAt": "2026-08-29T23:23:24Z",
+      "hasPages": true,
+      "category": "Web",
+      "signalScore": 58.7,
+      "signalBreakdown": {
+        "relevance": 68,
+        "activity": 95,
+        "documentation": 53,
+        "visual": 8,
+        "complexity": 48,
+        "stars": 0,
+        "completeness": 85,
+        "recency": 90
+      },
+      "status": "Active",
+      "health": "Healthy",
+      "issues": [
+        "Missing license",
+        "Missing screenshots",
+        "Missing demo"
+      ],
+      "fourLines": [
+        "Personal link-in-bio \u2014 Ahmad Droobi.",
+        "The problem statement is not documented separately from the README and GitHub description.",
+        "Detected stack: CSS, HTML, JavaScript.",
+        "Treat claims beyond the public README as not detected."
+      ],
+      "tech": [
+        "CSS",
+        "HTML",
+        "JavaScript"
+      ],
+      "learning": [
+        "CSS",
+        "AI"
+      ],
+      "cover": null,
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/ahmaddroobi99.github.io",
+      "images": [],
+      "gifs": [],
+      "mediaKind": "generated",
+      "readmeExcerpt": "# Ahmad Droobi\n\nPersonal link-in-bio, live at **https://ahmaddroobi99.github.io/**\n\n- Circular portrait, short bio, and featured links\n- Social icons and a light / dark theme toggle\n- Mobile-first layout\n- [Imprint](https://ahmaddroobi99.github.io/qr/) \u2014 QR generator\n",
+      "hasReadme": true,
+      "featured": false,
+      "rank": 16,
+      "domain": "software"
+    },
+    {
+      "id": "resource-graph-crawler",
+      "name": "resource-graph-crawler",
+      "fullName": "ahmaddroobi99/resource-graph-crawler",
+      "url": "https://github.com/ahmaddroobi99/resource-graph-crawler",
+      "description": null,
+      "homepage": "http://54.214.7.161/",
+      "language": "Python",
+      "languages": {
+        "Python": 33705
+      },
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "sizeKb": 856,
+      "defaultBranch": "main",
+      "license": null,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2026-08-23T23:33:16Z",
+      "updatedAt": "2026-08-25T20:40:45Z",
+      "pushedAt": "2026-08-25T20:38:39Z",
+      "hasPages": false,
+      "category": "Tools",
+      "signalScore": 58.1,
+      "signalBreakdown": {
+        "relevance": 76,
+        "activity": 95,
+        "documentation": 45,
+        "visual": 8,
+        "complexity": 44,
+        "stars": 0,
+        "completeness": 65,
+        "recency": 90
+      },
+      "status": "Active",
+      "health": "Healthy",
+      "issues": [
+        "Missing description",
+        "Missing license",
+        "Missing screenshots",
+        "Missing demo"
+      ],
+      "fourLines": [
+        "Visualping Crawler An authenticated, breadth-first web crawler for the Visualping take-home challenge.",
+        "It starts at http://54.214.7.161/ , follows only same-host resources discovered from fetched content (no URL guessing), and extracts every password of the exact form VISUALPING{[0-9a-fA-F]{16}} \u2014 from HTML, JavaScript, image pixels, image m",
+        "Detected stack: Python.",
+        "When the frontier drains, it prints a provable completeness statement."
+      ],
+      "tech": [
+        "Python"
+      ],
+      "learning": [
+        "Python",
+        "AI"
+      ],
+      "cover": null,
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/resource-graph-crawler",
+      "images": [],
+      "gifs": [],
+      "mediaKind": "generated",
+      "readmeExcerpt": "# Visualping Crawler\n\nAn authenticated, breadth-first web crawler for the Visualping take-home challenge. It starts at\n`http://54.214.7.161/`, follows only same-host resources discovered from fetched content (no URL\nguessing), and extracts every password of the exact form `VISUALPING{[0-9a-fA-F]{16}}` \u2014 from HTML,\nJavaScript, image pixels, image metadata, and a Germany-geo-locked page. When the frontier drains,\nit prints a **provable** completeness statement.\n\n> Recovered values are written to `passwords.txt`, which is **git-ignored**. One resource,\n> `/status/eu-region/`, is only served to a German source IP; proxy / SOCKS / Tor support is built in\n> (see [Quick Start](#quick-start) and [scripts/fetch_geo.py](scripts/fetch_geo.py)).\n\n---\n\n## Features\n\n| Capability | Where | Notes |\n|---|---|---|\n| HTTP Basic Auth on every request | `crawler/fetcher.py` | Credentials sent on all fetches; bounded redirects; retry with backoff |\n| Same-host scope + tracking-param stripping | `crawler/url_utils.py` | Drops `utm_*`, `ref`, `v`, `hl`, `page`, \u2026 so the frontier stays finite |\n| BFS state (Frontier / Visited / Results) | `crawler/frontier.py` | Deduplicated FIFO queue; example password ex",
+      "hasReadme": true,
+      "featured": false,
+      "rank": 17,
+      "domain": "software"
+    },
+    {
+      "id": "ahmadd",
+      "name": "ahmadd",
+      "fullName": "ahmaddroobi99/ahmadd",
+      "url": "https://github.com/ahmaddroobi99/ahmadd",
+      "description": null,
+      "homepage": "https://nodejs.org/",
+      "language": "HTML",
+      "languages": {
+        "HTML": 111472,
+        "CSS": 64719,
+        "JavaScript": 23052,
+        "SCSS": 12381
+      },
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "sizeKb": 4846,
+      "defaultBranch": "main",
+      "license": null,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2026-08-15T06:56:28Z",
+      "updatedAt": "2026-08-29T06:10:37Z",
+      "pushedAt": "2026-08-29T06:10:19Z",
+      "hasPages": false,
+      "category": "Web",
+      "signalScore": 57.4,
+      "signalBreakdown": {
+        "relevance": 69,
+        "activity": 95,
+        "documentation": 45,
+        "visual": 8,
+        "complexity": 54,
+        "stars": 0,
+        "completeness": 65,
+        "recency": 90
+      },
+      "status": "Active",
+      "health": "Healthy",
+      "issues": [
+        "Missing description",
+        "Missing license",
+        "Missing screenshots",
+        "Missing demo"
+      ],
+      "fourLines": [
+        "Ahmad Droobi - Professional Portfolio Portfolio deployed on Cloudflare Pages.",
+        "Setup & Deploy Prerequisites - Node.js 16+ (Download) - Cloudflare account (Free) Installation bash npm install Build bash npm run build Outputs compiled site to public/ directory.",
+        "Detected stack: HTML, CSS, JavaScript, SCSS.",
+        "Deploy to Cloudflare bash npm run deploy Development Watch SASS files for changes: bash npm run dev Deployment Options Option 1: GitHub + Cloudflare (Recommended) 1."
+      ],
+      "tech": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "SCSS"
+      ],
+      "learning": [
+        "HTML",
+        "Web"
+      ],
+      "cover": null,
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/ahmadd",
+      "images": [],
+      "gifs": [],
+      "mediaKind": "generated",
+      "readmeExcerpt": "# Ahmad Droobi - Professional Portfolio\n\nPortfolio deployed on Cloudflare Pages.\n\n## Setup & Deploy\n\n### Prerequisites\n- Node.js 16+ ([Download](https://nodejs.org/))\n- Cloudflare account ([Free](https://dash.cloudflare.com/))\n\n### Installation\n```bash\nnpm install\n```\n\n### Build\n```bash\nnpm run build\n```\nOutputs compiled site to `public/` directory.\n\n### Deploy to Cloudflare\n```bash\nnpm run deploy\n```\n\n## Development\nWatch SASS files for changes:\n```bash\nnpm run dev\n```\n\n## Deployment Options\n\n### Option 1: GitHub + Cloudflare (Recommended)\n1. Push code to GitHub\n2. Connect repo to Cloudflare Pages dashboard\n3. Auto-deploys on every push\n\n### Option 2: Wrangler CLI\n```bash\nnpm run deploy\n```\n\n### Option 3: Cloudflare Dashboard\nUpload `public/` folder directly to Cloudflare Pages.\n\n## Project Structure\n```\n\u251c\u2500\u2500 index.html              Homepage\n\u251c\u2500\u2500 education.html\n\u251c\u2500\u2500 experience.html\n\u251c\u2500\u2500 awards.html\n\u251c\u2500\u2500 advising.html\n\u251c\u2500\u2500 publications.html\n\u251c\u2500\u2500 css/                    Stylesheets\n\u251c\u2500\u2500 js/                     JavaScript\n\u251c\u2500\u2500 img/                    Images\n\u251c\u2500\u2500 sass/                   SASS source\n\u251c\u2500\u2500 fonts/                  Web fonts\n\u251c\u2500\u2500 wrangler.toml           Cloudflare config\n\u251c\u2500\u2500 package.j",
+      "hasReadme": true,
+      "featured": false,
+      "rank": 18,
+      "domain": "software"
+    },
+    {
+      "id": "seniorgraduationproject2022-cookoverflow",
+      "name": "seniorGraduationProject2022_cookOverflow",
+      "fullName": "ahmaddroobi99/seniorGraduationProject2022_cookOverflow",
+      "url": "https://github.com/ahmaddroobi99/seniorGraduationProject2022_cookOverflow",
+      "description": "senior Graduation Project",
+      "homepage": null,
+      "language": "Python",
+      "languages": {
+        "Python": 16465666,
+        "CSS": 602524,
+        "HTML": 457125,
+        "JavaScript": 321538,
+        "Jupyter Notebook": 290737,
+        "PowerShell": 21539,
+        "Batchfile": 1298
+      },
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 7,
+      "sizeKb": 379226,
+      "defaultBranch": "master",
+      "license": null,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2022-01-26T10:52:01Z",
+      "updatedAt": "2023-06-04T12:56:37Z",
+      "pushedAt": "2023-06-04T12:55:49Z",
+      "hasPages": false,
+      "category": "Software",
+      "signalScore": 57.4,
+      "signalBreakdown": {
+        "relevance": 95,
+        "activity": 15,
+        "documentation": 70,
+        "visual": 48,
+        "complexity": 77,
+        "stars": 0,
+        "completeness": 85,
+        "recency": 20
+      },
+      "status": "Inactive",
+      "health": "Needs Maintenance",
+      "issues": [
+        "Missing license",
+        "Missing demo"
+      ],
+      "fourLines": [
+        "senior Graduation Project.",
+        "The problem statement is not documented separately from the README and GitHub description.",
+        "Detected stack: Python, CSS, HTML, JavaScript.",
+        "Treat claims beyond the public README as not detected."
+      ],
+      "tech": [
+        "Python",
+        "CSS",
+        "HTML",
+        "JavaScript",
+        "Jupyter Notebook",
+        "PowerShell"
+      ],
+      "learning": [
+        "Python",
+        "AI"
+      ],
+      "cover": "https://cldup.com/dTxpPi9lDf.thumb.png",
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/seniorGraduationProject2022_cookOverflow",
+      "images": [
+        "https://cldup.com/dTxpPi9lDf.thumb.png",
+        "https://github.com/ahmaddroobi99/seniorGraduationProject2022_cookOverflow/blob/master/Documentation/UMLs/Activity%20Diagram.jpeg",
+        "https://github.com/ahmaddroobi99/seniorGraduationProject2022_cookOverflow/blob/master/Documentation/UMLs/Class%20Daigram.jpeg",
+        "https://github.com/ahmaddroobi99/seniorGraduationProject2022_cookOverflow/blob/master/Documentation/UMLs/Flow%20chart%201.png",
+        "https://github.com/ahmaddroobi99/seniorGraduationProject2022_cookOverflow/blob/master/Documentation/UMLs/Sequence%20diagram.jpeg",
+        "https://github.com/ahmaddroobi99/seniorGraduationProject2022_cookOverflow/blob/master/Documentation/UMLs/State%20Chart%20Diagram.jpeg"
+      ],
+      "gifs": [],
+      "mediaKind": "readme",
+      "readmeExcerpt": "# cookOverflow\n## Incoming Social Media Platform for food Lovers , Restaurants , Our Mothers ,That Been Built with state of Art AI/ML\n\n[![N|Django](https://cldup.com/dTxpPi9lDf.thumb.png)]((https://www.djangoproject.com/))\n\n[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)\n\nCookoverflow is Food Social Media Platform ,specialized in Food viewing ,recipe sharing , interacting between users and using its Data for a recipe recommender system built in the backend   ,which we give the Recommender the Recipe  we have, and it gives us what to cook using machine learning approach ,  more over we built the Platform  infrastructure from Zero  that matches our requirements for the  Data collection and recipe Recommendation ,Users can share there recipes ,Posting them on our Platform , other users could like ,Comment  on the  Recipe Posts , and follow other users ,the Platform  has Friendly ,Easy to use UI , reliable , and Scalable infrastructure  make it very useful for Lovers of food in General , and Students who live away from there families  to  cook there own meals .and the Users (lovers of food ) could Communicate wit",
+      "hasReadme": true,
+      "featured": true,
+      "rank": 19,
+      "domain": "software"
+    },
+    {
+      "id": "my-cv-website-2021",
+      "name": "My_CV_Website_2021",
+      "fullName": "ahmaddroobi99/My_CV_Website_2021",
+      "url": "https://github.com/ahmaddroobi99/My_CV_Website_2021",
+      "description": "that's me",
+      "homepage": null,
+      "language": "HTML",
+      "languages": {
+        "HTML": 35252,
+        "CSS": 19321,
+        "JavaScript": 4873,
+        "PHP": 1013
+      },
+      "topics": [],
+      "stars": 2,
+      "forks": 0,
+      "openIssues": 0,
+      "sizeKb": 58805,
+      "defaultBranch": "master",
+      "license": null,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2021-10-20T09:16:32Z",
+      "updatedAt": "2022-01-12T00:10:33Z",
+      "pushedAt": "2021-10-20T09:44:01Z",
+      "hasPages": false,
+      "category": "Web",
+      "signalScore": 52.9,
+      "signalBreakdown": {
+        "relevance": 77,
+        "activity": 15,
+        "documentation": 45,
+        "visual": 78,
+        "complexity": 65,
+        "stars": 8,
+        "completeness": 85,
+        "recency": 20
+      },
+      "status": "Inactive",
+      "health": "Needs Maintenance",
+      "issues": [
+        "Missing license",
+        "Missing demo"
+      ],
+      "fourLines": [
+        "<a href=\" \" <img width=\"100%\" height=\"auto\" src=\"https://i.imgur.com/iXuL1HG.png\" height=\"175px\"/ </a <h1 align=\"center\" Hi <img src=\"https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif\" width=\"30px\" , I'm Droobi</h1 <",
+        "- \ud83d\udc6f I\u2019m looking to collaborate on OpenSource Projects - \ud83d\udc68\u200d\ud83d\udcbb All of my projects are available at My Portfolio - \ud83d\udceb How to reach me ahmaddroobi1999@gmail.com - \u26a1 Fun fact \u201cMore data beats clever algorithms, but better data beats more data.\u201d so",
+        "Detected stack: HTML, CSS, JavaScript, PHP.",
+        "\ud83d\ude80 Languages and Tools: <p align=\"right\" <a href=\"https://www.java.com\" target=\" blank\" <img src=\"https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png\"/ </a <a href=\"https://reactjs.org/\" target=\" blank\" <img src=\"https://img.icon"
+      ],
+      "tech": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PHP"
+      ],
+      "learning": [
+        "HTML",
+        "Web"
+      ],
+      "cover": "https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif",
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/My_CV_Website_2021",
+      "images": [
+        "https://i.imgur.com/iXuL1HG.png",
+        "https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png",
+        "https://img.icons8.com/color/48/000000/react-native.png",
+        "https://img.icons8.com/color/48/000000/spring-logo.png",
+        "https://img.icons8.com/color/48/000000/javascript.png",
+        "https://img.icons8.com/color/48/000000/html-5.png"
+      ],
+      "gifs": [
+        "https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif"
+      ],
+      "mediaKind": "gif",
+      "readmeExcerpt": "<a href=\"#\"><img width=\"100%\" height=\"auto\" src=\"https://i.imgur.com/iXuL1HG.png\" height=\"175px\"/></a>\n\n<h1 align=\"center\">Hi <img src=\"https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif\" width=\"30px\">, I'm Droobi</h1>\n<h3 align=\"center\">I'm a passionate Computer Engineer From Palestine.</h3>\n\n\n## \ud83d\ude4b\u200d\u2642\ufe0f About Me\n\n- \ud83d\udd2d I\u2019m currently working on **[Private Project]**\n\n- \ud83c\udf31 I\u2019m currently learning **Data Structures and Algorithms.**\n\n- \ud83d\udc6f I\u2019m looking to collaborate on **OpenSource Projects**\n\n- \ud83d\udc68\u200d\ud83d\udcbb All of my projects are available at **[My Portfolio](http://www.ahmaddroobi.eb2a.com)**\n\n- \ud83d\udceb How to reach me **ahmaddroobi1999@gmail.com**\n\n- \u26a1 Fun fact ** \u201cMore data beats clever algorithms, but better data beats more data.\u201d so i am a hard worker more than a clever person I don't have time to check honestly ..**\n\n## \ud83d\ude80 Languages and Tools:\n\n<p align=\"right\"> \n    <a href=\"https://www.java.com\" target=\"_blank\"> <img src=\"https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png\"/> </a>\n    <a href=\"https://reactjs.org/\" target=\"_blank\"> <img src=\"https://img.icons8.com/color/48/000000/react-native.png\"/> </a>\n    <a href=\"https://spring.io/projects/spring-boot\" target=",
+      "hasReadme": true,
+      "featured": false,
+      "rank": 20,
+      "domain": "software"
+    },
+    {
+      "id": "smiles-2026-signal-ad",
+      "name": "SMILES-2026-Signal-AD",
+      "fullName": "ahmaddroobi99/SMILES-2026-Signal-AD",
+      "url": "https://github.com/ahmaddroobi99/SMILES-2026-Signal-AD",
+      "description": null,
+      "homepage": null,
+      "language": "PowerShell",
+      "languages": {
+        "PowerShell": 15835,
+        "Shell": 13592,
+        "Python": 9176
+      },
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "sizeKb": 19,
+      "defaultBranch": "main",
+      "license": null,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2026-05-09T22:47:50Z",
+      "updatedAt": "2026-05-16T20:35:41Z",
+      "pushedAt": "2026-05-09T22:52:53Z",
+      "hasPages": false,
+      "category": "Scientific Computing",
+      "signalScore": 49.1,
+      "signalBreakdown": {
+        "relevance": 84,
+        "activity": 55,
+        "documentation": 45,
+        "visual": 8,
+        "complexity": 34,
+        "stars": 0,
+        "completeness": 65,
+        "recency": 50
+      },
+      "status": "Maintained",
+      "health": "Active",
+      "issues": [
+        "Missing description",
+        "Missing license",
+        "Missing screenshots",
+        "Missing demo"
+      ],
+      "fourLines": [
+        "SMILES-2026 Signal Interference Cancellation Repository layout: - task and baseline.py contains the task-side logic, shared evaluation helpers, and baseline.",
+        "- applicant solution.py must contain the applicant's solution and write results.json .",
+        "Detected stack: PowerShell, Shell, Python.",
+        "Overview A physical device simultaneously transmits and receives signals across multiple channels."
+      ],
+      "tech": [
+        "PowerShell",
+        "Shell",
+        "Python"
+      ],
+      "learning": [
+        "PowerShell",
+        "AI"
+      ],
+      "cover": null,
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/SMILES-2026-Signal-AD",
+      "images": [],
+      "gifs": [],
+      "mediaKind": "generated",
+      "readmeExcerpt": "# SMILES-2026 Signal Interference Cancellation\n\nRepository layout:\n\n- `task_and_baseline.py` contains the task-side logic, shared evaluation helpers, and baseline.\n- `applicant_solution.py` must contain the applicant's solution and write `results.json`.\n\n## Overview\n\nA physical device simultaneously transmits and receives signals across multiple\nchannels. The received signal is corrupted by a structured interference term that\narises from the device's own transmission \u2014 plus an additional external source.\nYour goal is to estimate and subtract this interference, recovering a cleaner\nreceived signal.\n\nThis is a real-world problem. The data comes from actual hardware\nmeasurements. No domain knowledge is required \u2014 the problem is fully self-contained.\n\n---\n\n## Setup\n\nThe device operates as follows:\n\n```\n                    \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510\n  TX[n] \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u25b6\u2502                          \u2502\u2500\u2500\u2500\u2500\u2500\u2500\u25b6  (transmitted)\n                    \u2502      Physical Device      \u2502\n  RX[n] \u25c0\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2502                          \u2502\u25c0\u2500\u2500\u2500\u2500\u2500\u2500  (received)\n                    \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518\n                              \u2191\n                    Interference leaks into RX\n```\n\n- **6 transmit channe",
+      "hasReadme": true,
+      "featured": false,
+      "rank": 21,
+      "domain": "scientific"
+    },
+    {
+      "id": "interview-school-by-ahmad-resources-i-used",
+      "name": "Interview-School-By-Ahmad-_Resources-I-used",
+      "fullName": "ahmaddroobi99/Interview-School-By-Ahmad-_Resources-I-used",
+      "url": "https://github.com/ahmaddroobi99/Interview-School-By-Ahmad-_Resources-I-used",
+      "description": "Curated interview-prep resources collected and published by Ahmad Droobi.",
+      "homepage": null,
+      "language": "Not detected",
+      "languages": {},
+      "topics": [],
+      "stars": 25,
+      "forks": 2,
+      "openIssues": 0,
+      "sizeKb": 308936,
+      "defaultBranch": "main",
+      "license": null,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2022-06-02T00:00:00Z",
+      "updatedAt": "2022-11-05T00:00:00Z",
+      "pushedAt": "2022-11-05T00:00:00Z",
+      "hasPages": false,
+      "category": "Education",
+      "domain": "experiments",
+      "signalScore": 44.0,
+      "signalBreakdown": {
+        "relevance": 55,
+        "activity": 15,
+        "documentation": 40,
+        "visual": 8,
+        "complexity": 70,
+        "stars": 100,
+        "completeness": 50,
+        "recency": 20
+      },
+      "status": "Inactive",
+      "health": "Needs Maintenance",
+      "issues": [
+        "Missing description",
+        "Missing license",
+        "Missing screenshots",
+        "Missing demo",
+        "Language undetected"
+      ],
+      "fourLines": [
+        "A public collection of interview-prep resources published from this account.",
+        "Organizes materials used while preparing for software-engineering interviews.",
+        "Repository language is not detected by GitHub; contents are resource files rather than an application.",
+        "Highest-starred public original repository on the account (25 stars). Not presented as a product."
+      ],
+      "tech": [],
+      "learning": [
+        "Education",
+        "Technical communication"
+      ],
+      "cover": null,
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/Interview-School-By-Ahmad-_Resources-I-used",
+      "images": [],
+      "gifs": [],
+      "mediaKind": "generated",
+      "readmeExcerpt": null,
+      "hasReadme": false,
+      "featured": false,
+      "rank": 22
+    },
+    {
+      "id": "softwareproject-2021-agile-trello",
+      "name": "SoftwareProject_2021_Agile_Trello",
+      "fullName": "ahmaddroobi99/SoftwareProject_2021_Agile_Trello",
+      "url": "https://github.com/ahmaddroobi99/SoftwareProject_2021_Agile_Trello",
+      "description": "this is  Software Project For Group of 7 ,The Scrum Master is Droobi",
+      "homepage": null,
+      "language": "Java",
+      "languages": {
+        "Java": 262586
+      },
+      "topics": [],
+      "stars": 1,
+      "forks": 0,
+      "openIssues": 0,
+      "sizeKb": 7797,
+      "defaultBranch": "master",
+      "license": null,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2021-10-13T07:19:50Z",
+      "updatedAt": "2021-12-13T15:09:59Z",
+      "pushedAt": "2021-12-13T15:09:56Z",
+      "hasPages": false,
+      "category": "Software",
+      "signalScore": 43.0,
+      "signalBreakdown": {
+        "relevance": 76,
+        "activity": 15,
+        "documentation": 70,
+        "visual": 8,
+        "complexity": 38,
+        "stars": 4,
+        "completeness": 85,
+        "recency": 20
+      },
+      "status": "Inactive",
+      "health": "Needs Maintenance",
+      "issues": [
+        "Missing license",
+        "Missing screenshots",
+        "Missing demo"
+      ],
+      "fourLines": [
+        "this is Software Project For Group of 7 ,The Scrum Master is Droobi.",
+        "Group2 : E-Wallet Smart vision for programming and technology \uf0fc Project Name PayMe E \u2013 Wallet Project 1.1.",
+        "Detected stack: Java.",
+        "Purpose The purpose of this document is to present a detailed description of the e-Wallet System and describe the files and code that has been developed for the same."
+      ],
+      "tech": [
+        "Java"
+      ],
+      "learning": [
+        "Java",
+        "AI"
+      ],
+      "cover": null,
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/SoftwareProject_2021_Agile_Trello",
+      "images": [],
+      "gifs": [],
+      "mediaKind": "generated",
+      "readmeExcerpt": "# SoftwareProject_2021_Agile_Trello\nthis is  Software Project For Group of 7 ,The Scrum Master is Droobi\n# E-Wallet \nThe E-Wallet is an application or program which I can through it to make my financial transactions more easier and secure. \n\n## Group2 : E-Wallet\n### Smart vision for programming and technology \n\n\uf0fc\tProject Name \n\n \tPayMe\n  E \u2013 Wallet Project\n\n1.1. Purpose\n\nThe purpose of this document is to present a detailed description of the e-Wallet System and describe the files and code that has been developed for the same. This document is intended for both the stakeholders and the developers of the system.\n\n\n1.2. Scope of Project\nThis system will be an e-Wallet designed for use by the students of Palestine. The main objective is to provide the students/vendors at Palestine a simple software that will enable easy, secure payment at all of the outlets available on campus and therefore facilitate a new technology-driven means by virtue of which, every student can do away with the burden of having to worry about carrying cash around campus for various needs.\n\nCurrently, some of the issues brought out by the students include the fact that they do not receive change in cash, on maki",
+      "hasReadme": true,
+      "featured": false,
+      "rank": 23,
+      "domain": "software"
+    },
+    {
+      "id": "clemson-project-realtime-face-emotion-recognition-tensorflow-transfer-learning-python",
+      "name": "Clemson_Project_Realtime-Face-Emotion-Recognition-Tensorflow-Transfer-Learning-Python",
+      "fullName": "ahmaddroobi99/Clemson_Project_Realtime-Face-Emotion-Recognition-Tensorflow-Transfer-Learning-Python",
+      "url": "https://github.com/ahmaddroobi99/Clemson_Project_Realtime-Face-Emotion-Recognition-Tensorflow-Transfer-Learning-Python",
+      "description": null,
+      "homepage": null,
+      "language": "Jupyter Notebook",
+      "languages": {
+        "Jupyter Notebook": 480041
+      },
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "sizeKb": 87833,
+      "defaultBranch": "main",
+      "license": null,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2021-11-05T14:46:47Z",
+      "updatedAt": "2022-01-10T10:13:48Z",
+      "pushedAt": "2021-12-15T08:08:34Z",
+      "hasPages": false,
+      "category": "Computer Vision",
+      "signalScore": 42.5,
+      "signalBreakdown": {
+        "relevance": 92,
+        "activity": 15,
+        "documentation": 45,
+        "visual": 8,
+        "complexity": 43,
+        "stars": 0,
+        "completeness": 65,
+        "recency": 20
+      },
+      "status": "Inactive",
+      "health": "Needs Maintenance",
+      "issues": [
+        "Missing description",
+        "Missing license",
+        "Missing screenshots",
+        "Missing demo"
+      ],
+      "fourLines": [
+        "Clemson Project Realtime-Face-Emotion-Recognition-Tensorflow-Transfer-Learning-Python This paper presented the development of Real-Time emotion recognition using deep learning with Google Colab, Tensorflow, OpenCV, Dlib.",
+        "The success of this approach in recognizing emotions has been tremendously improving over time.",
+        "Detected stack: Jupyter Notebook.",
+        "Introducing deep learning techniques like CNN, DNN, or other multimodal methods has also boosted the pace of recognition accuracy."
+      ],
+      "tech": [
+        "Jupyter Notebook"
+      ],
+      "learning": [
+        "Jupyter Notebook",
+        "AI"
+      ],
+      "cover": null,
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/Clemson_Project_Realtime-Face-Emotion-Recognition-Tensorflow-Transfer-Learning-Python",
+      "images": [],
+      "gifs": [],
+      "mediaKind": "generated",
+      "readmeExcerpt": "# Clemson_Project_Realtime-Face-Emotion-Recognition-Tensorflow-Transfer-Learning-Python\n\nThis paper presented the development of Real-Time emotion recognition using deep learning with \nGoogle Colab, Tensorflow, OpenCV, Dlib. The success of this approach in recognizing emotions has been tremendously improving over \ntime. Introducing deep learning techniques like CNN, DNN, or other multimodal methods has also boosted \nthe pace of recognition accuracy. Our work demonstrated the general architectural model for building \na recognition system using deep learning (CNN). The aim was to analyze pre and post processes \ninvolved in the model's methodology. There is extensive work done on image or video as input (Real-Time System) \nto recognize the emotion. This paper also covered the datasets available for the researchers to contribute to this \nfield. Different performance parameters were benchmarked on different research to show this \nsphere's progress. The experimental observation was carried out on the Kaggle  dataset involving seven emotions, namely \nangry, disgust, fear, happy, sad, surprise, neutral, which yielded in the be 0.97 accuracies on the training set and \n0.574 accuracy on the ",
+      "hasReadme": true,
+      "featured": true,
+      "rank": 24,
+      "domain": "computer-vision"
+    },
+    {
+      "id": "droobi-personal-website-django-2022",
+      "name": "Droobi_Personal_Website_Django_2022",
+      "fullName": "ahmaddroobi99/Droobi_Personal_Website_Django_2022",
+      "url": "https://github.com/ahmaddroobi99/Droobi_Personal_Website_Django_2022",
+      "description": "its mine ,and My Code , now my code talking about me :)",
+      "homepage": null,
+      "language": "HTML",
+      "languages": {
+        "HTML": 68932,
+        "JavaScript": 14795,
+        "Python": 6875
+      },
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 2,
+      "sizeKb": 13354,
+      "defaultBranch": "master",
+      "license": null,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2022-06-17T15:47:37Z",
+      "updatedAt": "2022-07-15T18:36:51Z",
+      "pushedAt": "2023-04-21T21:10:03Z",
+      "hasPages": false,
+      "category": "Web",
+      "signalScore": 42.0,
+      "signalBreakdown": {
+        "relevance": 77,
+        "activity": 15,
+        "documentation": 53,
+        "visual": 8,
+        "complexity": 54,
+        "stars": 0,
+        "completeness": 85,
+        "recency": 20
+      },
+      "status": "Inactive",
+      "health": "Needs Maintenance",
+      "issues": [
+        "Missing license",
+        "Missing screenshots",
+        "Missing demo"
+      ],
+      "fourLines": [
+        "its mine ,and My Code , now my code talking about me :).",
+        "The problem statement is not documented separately from the README and GitHub description.",
+        "Detected stack: HTML, JavaScript, Python.",
+        "Treat claims beyond the public README as not detected."
+      ],
+      "tech": [
+        "HTML",
+        "JavaScript",
+        "Python"
+      ],
+      "learning": [
+        "HTML",
+        "Web",
+        "Django"
+      ],
+      "cover": null,
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/Droobi_Personal_Website_Django_2022",
+      "images": [],
+      "gifs": [],
+      "mediaKind": "generated",
+      "readmeExcerpt": "# Droobi_Personal_Website_Django_2022\nits mine ,and My Code , now my code talking about me :)\n",
+      "hasReadme": true,
+      "featured": false,
+      "rank": 25,
+      "domain": "software"
+    },
+    {
+      "id": "computer-architecture-project-piplined--cpu-2021",
+      "name": "computer_Architecture_Project_Piplined-_CPU_2021",
+      "fullName": "ahmaddroobi99/computer_Architecture_Project_Piplined-_CPU_2021",
+      "url": "https://github.com/ahmaddroobi99/computer_Architecture_Project_Piplined-_CPU_2021",
+      "description": "Multi-cycle datapath CPU ,ALU,PIPElINED",
+      "homepage": null,
+      "language": "Verilog",
+      "languages": {
+        "Verilog": 52234
+      },
+      "topics": [],
+      "stars": 1,
+      "forks": 0,
+      "openIssues": 0,
+      "sizeKb": 167,
+      "defaultBranch": "main",
+      "license": null,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2021-10-24T07:26:34Z",
+      "updatedAt": "2021-11-30T09:36:04Z",
+      "pushedAt": "2021-10-24T07:27:11Z",
+      "hasPages": false,
+      "category": "Systems",
+      "signalScore": 41.2,
+      "signalBreakdown": {
+        "relevance": 95,
+        "activity": 15,
+        "documentation": 35,
+        "visual": 8,
+        "complexity": 38,
+        "stars": 4,
+        "completeness": 60,
+        "recency": 20
+      },
+      "status": "Inactive",
+      "health": "Needs Maintenance",
+      "issues": [
+        "Missing README",
+        "Missing license",
+        "Missing screenshots",
+        "Missing demo"
+      ],
+      "fourLines": [
+        "Multi-cycle datapath CPU ,ALU,PIPElINED.",
+        "The problem statement is not documented separately from the README and GitHub description.",
+        "Detected stack: Verilog.",
+        "Treat claims beyond the public README as not detected."
+      ],
+      "tech": [
+        "Verilog"
+      ],
+      "learning": [
+        "Verilog",
+        "Systems"
+      ],
+      "cover": null,
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/computer_Architecture_Project_Piplined-_CPU_2021",
+      "images": [],
+      "gifs": [],
+      "mediaKind": "generated",
+      "readmeExcerpt": null,
+      "hasReadme": false,
+      "featured": true,
+      "rank": 26,
+      "domain": "systems"
+    },
+    {
+      "id": "cookersystemdesgin-microcontroller",
+      "name": "CookerSystemDesgin_Microcontroller",
+      "fullName": "ahmaddroobi99/CookerSystemDesgin_Microcontroller",
+      "url": "https://github.com/ahmaddroobi99/CookerSystemDesgin_Microcontroller",
+      "description": "Microcontroller for Cooker ( Microwave ) MplabX and PicSimLAb using C",
+      "homepage": null,
+      "language": "C",
+      "languages": {
+        "C": 26290,
+        "Makefile": 21454,
+        "Shell": 1363
+      },
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "sizeKb": 7001,
+      "defaultBranch": "main",
+      "license": null,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2022-04-07T22:08:23Z",
+      "updatedAt": "2022-07-15T18:43:35Z",
+      "pushedAt": "2022-04-08T13:10:20Z",
+      "hasPages": false,
+      "category": "Embedded",
+      "signalScore": 41.0,
+      "signalBreakdown": {
+        "relevance": 84,
+        "activity": 15,
+        "documentation": 35,
+        "visual": 8,
+        "complexity": 66,
+        "stars": 0,
+        "completeness": 60,
+        "recency": 20
+      },
+      "status": "Inactive",
+      "health": "Needs Maintenance",
+      "issues": [
+        "Missing README",
+        "Missing license",
+        "Missing screenshots",
+        "Missing demo"
+      ],
+      "fourLines": [
+        "Microcontroller for Cooker ( Microwave ) MplabX and PicSimLAb using C.",
+        "The problem statement is not documented separately from the README and GitHub description.",
+        "Detected stack: C, Makefile, Shell.",
+        "Treat claims beyond the public README as not detected."
+      ],
+      "tech": [
+        "C",
+        "Makefile",
+        "Shell"
+      ],
+      "learning": [
+        "C",
+        "Systems"
+      ],
+      "cover": null,
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/CookerSystemDesgin_Microcontroller",
+      "images": [],
+      "gifs": [],
+      "mediaKind": "generated",
+      "readmeExcerpt": null,
+      "hasReadme": false,
+      "featured": false,
+      "rank": 27,
+      "domain": "robotics"
+    },
+    {
+      "id": "messnger-filetransfer-stopandwaitprotocol-udp",
+      "name": "Messnger_FileTransfer_StopAndWaitProtocol_UDP",
+      "fullName": "ahmaddroobi99/Messnger_FileTransfer_StopAndWaitProtocol_UDP",
+      "url": "https://github.com/ahmaddroobi99/Messnger_FileTransfer_StopAndWaitProtocol_UDP",
+      "description": "java application that establish a connection between two or more ,they could chat and send files to each other , files ,images ,videos,with making the transfer as packetes orgnized as objects regulated with timers ,to resend the packet if its lost ,more over a threads used to make the time out corresponding to stop and wait protocol 3.0 version and calculated the percentage of success of the transmission. it works 100% ..Done by team work of ahmad droobi and yazan habash ",
+      "homepage": null,
+      "language": "Java",
+      "languages": {
+        "Java": 68654
+      },
+      "topics": [],
+      "stars": 1,
+      "forks": 0,
+      "openIssues": 0,
+      "sizeKb": 328,
+      "defaultBranch": "main",
+      "license": null,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2021-05-29T13:15:58Z",
+      "updatedAt": "2021-11-30T09:37:14Z",
+      "pushedAt": "2021-05-29T13:18:00Z",
+      "hasPages": false,
+      "category": "Systems",
+      "signalScore": 40.0,
+      "signalBreakdown": {
+        "relevance": 95,
+        "activity": 15,
+        "documentation": 35,
+        "visual": 8,
+        "complexity": 26,
+        "stars": 4,
+        "completeness": 60,
+        "recency": 20
+      },
+      "status": "Inactive",
+      "health": "Needs Maintenance",
+      "issues": [
+        "Missing README",
+        "Missing license",
+        "Missing screenshots",
+        "Missing demo"
+      ],
+      "fourLines": [
+        "java application that establish a connection between two or more ,they could chat and send files to each other , files ,images ,videos,with making the transfer as packetes orgnized as objects regulated with timers ,to resend the packet if i",
+        "The problem statement is not documented separately from the README and GitHub description.",
+        "Detected stack: Java.",
+        "Treat claims beyond the public README as not detected."
+      ],
+      "tech": [
+        "Java"
+      ],
+      "learning": [
+        "Java",
+        "Systems"
+      ],
+      "cover": null,
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/Messnger_FileTransfer_StopAndWaitProtocol_UDP",
+      "images": [],
+      "gifs": [],
+      "mediaKind": "generated",
+      "readmeExcerpt": null,
+      "hasReadme": false,
+      "featured": false,
+      "rank": 28,
+      "domain": "systems"
+    },
+    {
+      "id": "wordcup2022-winnerprediction-ml",
+      "name": "WordCup2022_WinnerPrediction_ML",
+      "fullName": "ahmaddroobi99/WordCup2022_WinnerPrediction_ML",
+      "url": "https://github.com/ahmaddroobi99/WordCup2022_WinnerPrediction_ML",
+      "description": null,
+      "homepage": null,
+      "language": "Jupyter Notebook",
+      "languages": {
+        "Jupyter Notebook": 928032
+      },
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "sizeKb": 5731,
+      "defaultBranch": "main",
+      "license": null,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2022-12-11T13:27:33Z",
+      "updatedAt": "2023-01-05T13:37:46Z",
+      "pushedAt": "2022-12-17T06:31:38Z",
+      "hasPages": false,
+      "category": "Machine Learning",
+      "signalScore": 40.0,
+      "signalBreakdown": {
+        "relevance": 84,
+        "activity": 15,
+        "documentation": 45,
+        "visual": 8,
+        "complexity": 38,
+        "stars": 0,
+        "completeness": 65,
+        "recency": 20
+      },
+      "status": "Inactive",
+      "health": "Needs Maintenance",
+      "issues": [
+        "Missing description",
+        "Missing license",
+        "Missing screenshots",
+        "Missing demo"
+      ],
+      "fourLines": [
+        "WordCup2022 WinnerPrediction ML You need to design a Machine Learning (ML) model to predict the results of the last two matches in the FIFA World Cup Qatar 2022, on 17 and 18.12.2022.",
+        "You can use any features you want to build your model from the current or the previous world cups, such as the total players evaluation, shots, shots on target, possession, passes, pass accuracy, fouls, yellow cards, red cards, offsides, co",
+        "Detected stack: Jupyter Notebook.",
+        "Please perform the following steps (if required) or any other steps you find them necessary: Part 1 - Code: \u2022 Data collection and integration."
+      ],
+      "tech": [
+        "Jupyter Notebook"
+      ],
+      "learning": [
+        "Jupyter Notebook",
+        "AI"
+      ],
+      "cover": null,
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/WordCup2022_WinnerPrediction_ML",
+      "images": [],
+      "gifs": [],
+      "mediaKind": "generated",
+      "readmeExcerpt": "# WordCup2022_WinnerPrediction_ML\n\nYou need to design a Machine Learning (ML) model to predict the results\nof the last two matches in the FIFA World Cup Qatar 2022, on 17 and\n18.12.2022. You can use any features you want to build your model from the\ncurrent or the previous world cups, such as the total players evaluation, shots,\nshots on target, possession, passes, pass accuracy, fouls, yellow cards, red\ncards, offsides, corners, etc. Please perform the following steps (if required) or\nany other steps you find them necessary:\nPart 1 - Code:\n\u2022 Data collection and integration.\n\u2022 Data cleaning and transformation.\n\u2022 Data visualization and analysis.\n\u2022 Data reduction and feature selection.\n\u2022 Building a model to predict the name of the winning team.\n\u2022 Provide model evaluation. You may use the R-squared (R2\n) to evaluate\nyour model\n",
+      "hasReadme": true,
+      "featured": false,
+      "rank": 29,
+      "domain": "ai"
+    },
+    {
+      "id": "bayzat-task-backend",
+      "name": "Bayzat_Task_Backend",
+      "fullName": "ahmaddroobi99/Bayzat_Task_Backend",
+      "url": "https://github.com/ahmaddroobi99/Bayzat_Task_Backend",
+      "description": "Task from Bayzat the solution is in GitLab and in my device , just share the task statement",
+      "homepage": "https://spring.io/projects/spring-boot",
+      "language": "Not detected",
+      "languages": {},
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "sizeKb": 5,
+      "defaultBranch": "main",
+      "license": null,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2022-07-22T07:08:44Z",
+      "updatedAt": "2022-08-15T17:31:50Z",
+      "pushedAt": "2022-07-22T07:09:57Z",
+      "hasPages": false,
+      "category": "Software",
+      "signalScore": 39.2,
+      "signalBreakdown": {
+        "relevance": 76,
+        "activity": 15,
+        "documentation": 70,
+        "visual": 8,
+        "complexity": 10,
+        "stars": 0,
+        "completeness": 70,
+        "recency": 20
+      },
+      "status": "Inactive",
+      "health": "Needs Maintenance",
+      "issues": [
+        "Missing license",
+        "Missing screenshots",
+        "Missing demo",
+        "Language undetected"
+      ],
+      "fourLines": [
+        "Task from Bayzat the solution is in GitLab and in my device , just share the task statement.",
+        "Please read the constraints and tasks carefully and follow submission guideline at the bottom of the page.",
+        "Detected stack: Not detected.",
+        "Scenario BayzTracker is a cryptocurrency tracker app which allows its users to create alerts to be notified when a price of a coin reaches the price user determines."
+      ],
+      "tech": [],
+      "learning": [
+        "AI"
+      ],
+      "cover": null,
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/Bayzat_Task_Backend",
+      "images": [],
+      "gifs": [],
+      "mediaKind": "generated",
+      "readmeExcerpt": "# Bayzat_Task_Backend\n\n# Backend Engineer Assignment\nIn this assignment, you are expected to build an API backend with Spring Boot framework for an imaginary mobile application. Please read the constraints and tasks carefully and follow submission guideline at the bottom of the page.\n\n## Scenario\nBayzTracker is a cryptocurrency tracker app which allows its users to create alerts to be notified when a price of a coin reaches the price user determines.\n\nUser can create multiple alerts and can track the alert status anytime (triggered or waiting).\n\nThere is also currency list page where all coins with their current prices are listed.\n\nThe admin user also manages the currencies that will be listed on the app.\n\n## Tech stack\n- [Spring Boot](https://spring.io/projects/spring-boot)\n- Java 8+ or Kotlin\n- Gradle or Maven\n- Spring Data JPA\n- Hibernate\n- MySQL or PostgreSQL\n- GIT for version control\n\n## General Application Constraints\n- Users are using BayzTracker mobile app, assume that the API is only consumed by mobile\n- Data should only be accepted from the registered users with their ownership rights.\n- There are two types of users: Admin and User.\n    - Both user types can create alerts",
+      "hasReadme": true,
+      "featured": false,
+      "rank": 30,
+      "domain": "software"
+    },
+    {
+      "id": "enme517",
+      "name": "ENME517",
+      "fullName": "ahmaddroobi99/ENME517",
+      "url": "https://github.com/ahmaddroobi99/ENME517",
+      "description": null,
+      "homepage": null,
+      "language": "Jupyter Notebook",
+      "languages": {
+        "Jupyter Notebook": 616890,
+        "TeX": 37644
+      },
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "sizeKb": 57860,
+      "defaultBranch": "main",
+      "license": null,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2024-12-04T20:20:40Z",
+      "updatedAt": "2025-10-28T12:41:24Z",
+      "pushedAt": "2024-12-08T00:45:08Z",
+      "hasPages": false,
+      "category": "Scientific Computing",
+      "signalScore": 38.8,
+      "signalBreakdown": {
+        "relevance": 84,
+        "activity": 35,
+        "documentation": 10,
+        "visual": 8,
+        "complexity": 51,
+        "stars": 0,
+        "completeness": 40,
+        "recency": 20
+      },
+      "status": "Needs Maintenance",
+      "health": "Needs Maintenance",
+      "issues": [
+        "Missing description",
+        "Missing README",
+        "Missing license",
+        "Missing screenshots",
+        "Missing demo"
+      ],
+      "fourLines": [
+        "Public repository ENME517.",
+        "The problem statement is not documented separately from the README and GitHub description.",
+        "Detected stack: Jupyter Notebook, TeX.",
+        "Treat claims beyond the public README as not detected."
+      ],
+      "tech": [
+        "Jupyter Notebook",
+        "TeX"
+      ],
+      "learning": [
+        "Jupyter Notebook",
+        "Scientific Computing"
+      ],
+      "cover": null,
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/ENME517",
+      "images": [],
+      "gifs": [],
+      "mediaKind": "generated",
+      "readmeExcerpt": null,
+      "hasReadme": false,
+      "featured": false,
+      "rank": 31,
+      "domain": "scientific"
+    },
+    {
+      "id": "desigos-shell-and-copycommand-2022",
+      "name": "DesigOS-Shell-and-CopyCommand_2022",
+      "fullName": "ahmaddroobi99/DesigOS-Shell-and-CopyCommand_2022",
+      "url": "https://github.com/ahmaddroobi99/DesigOS-Shell-and-CopyCommand_2022",
+      "description": "https://www.youtube.com/watch?v=6_ClWeqtZ90",
+      "homepage": null,
+      "language": "C++",
+      "languages": {
+        "C++": 9810
+      },
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "sizeKb": 3,
+      "defaultBranch": "main",
+      "license": null,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2022-04-16T15:14:25Z",
+      "updatedAt": "2022-07-15T18:42:59Z",
+      "pushedAt": "2022-04-16T15:18:45Z",
+      "hasPages": false,
+      "category": "Systems",
+      "signalScore": 37.5,
+      "signalBreakdown": {
+        "relevance": 84,
+        "activity": 15,
+        "documentation": 35,
+        "visual": 8,
+        "complexity": 30,
+        "stars": 0,
+        "completeness": 60,
+        "recency": 20
+      },
+      "status": "Inactive",
+      "health": "Needs Maintenance",
+      "issues": [
+        "Missing README",
+        "Missing license",
+        "Missing screenshots",
+        "Missing demo"
+      ],
+      "fourLines": [
+        "https://www.youtube.com/watch?v=6 ClWeqtZ90.",
+        "The problem statement is not documented separately from the README and GitHub description.",
+        "Detected stack: C++.",
+        "Treat claims beyond the public README as not detected."
+      ],
+      "tech": [
+        "C++"
+      ],
+      "learning": [
+        "C++",
+        "Systems"
+      ],
+      "cover": null,
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/DesigOS-Shell-and-CopyCommand_2022",
+      "images": [],
+      "gifs": [],
+      "mediaKind": "generated",
+      "readmeExcerpt": null,
+      "hasReadme": false,
+      "featured": false,
+      "rank": 32,
+      "domain": "systems"
+    },
+    {
+      "id": "vianeos-interview",
+      "name": "Vianeos_Interview",
+      "fullName": "ahmaddroobi99/Vianeos_Interview",
+      "url": "https://github.com/ahmaddroobi99/Vianeos_Interview",
+      "description": "simple task Part of problem solving of interview with company Vianeos",
+      "homepage": null,
+      "language": "Python",
+      "languages": {
+        "Python": 688
+      },
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "sizeKb": 1,
+      "defaultBranch": "main",
+      "license": null,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2021-12-10T21:15:27Z",
+      "updatedAt": "2022-01-10T10:14:30Z",
+      "pushedAt": "2021-12-10T21:16:38Z",
+      "hasPages": false,
+      "category": "Education",
+      "signalScore": 37.4,
+      "signalBreakdown": {
+        "relevance": 68,
+        "activity": 15,
+        "documentation": 53,
+        "visual": 8,
+        "complexity": 30,
+        "stars": 0,
+        "completeness": 85,
+        "recency": 20
+      },
+      "status": "Inactive",
+      "health": "Needs Maintenance",
+      "issues": [
+        "Missing license",
+        "Missing screenshots",
+        "Missing demo"
+      ],
+      "fourLines": [
+        "simple task Part of problem solving of interview with company Vianeos.",
+        "The problem statement is not documented separately from the README and GitHub description.",
+        "Detected stack: Python.",
+        "Treat claims beyond the public README as not detected."
+      ],
+      "tech": [
+        "Python"
+      ],
+      "learning": [
+        "Python",
+        "Systems"
+      ],
+      "cover": null,
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/Vianeos_Interview",
+      "images": [],
+      "gifs": [],
+      "mediaKind": "generated",
+      "readmeExcerpt": "# Vianeos_Interview\nsimple task Part of problem solving of interview with company Vianeos\n",
+      "hasReadme": true,
+      "featured": false,
+      "rank": 33,
+      "domain": "experiments"
+    },
+    {
+      "id": "the-sparks-foudations-task-1",
+      "name": "The-Sparks-Foudations-Task-1",
+      "fullName": "ahmaddroobi99/The-Sparks-Foudations-Task-1",
+      "url": "https://github.com/ahmaddroobi99/The-Sparks-Foudations-Task-1",
+      "description": "ML-supervised-learning-linear-regression",
+      "homepage": null,
+      "language": "Jupyter Notebook",
+      "languages": {
+        "Jupyter Notebook": 81607
+      },
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "sizeKb": 57,
+      "defaultBranch": "main",
+      "license": null,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2022-06-03T13:57:31Z",
+      "updatedAt": "2022-06-17T12:46:43Z",
+      "pushedAt": "2022-06-03T14:23:42Z",
+      "hasPages": false,
+      "category": "Machine Learning",
+      "signalScore": 37.0,
+      "signalBreakdown": {
+        "relevance": 68,
+        "activity": 15,
+        "documentation": 53,
+        "visual": 8,
+        "complexity": 26,
+        "stars": 0,
+        "completeness": 85,
+        "recency": 20
+      },
+      "status": "Inactive",
+      "health": "Needs Maintenance",
+      "issues": [
+        "Missing license",
+        "Missing screenshots",
+        "Missing demo"
+      ],
+      "fourLines": [
+        "ML-supervised-learning-linear-regression.",
+        "of study hours it depend on linear regression classification I used python language, and jupyter notebook environment",
+        "Detected stack: Jupyter Notebook.",
+        "Treat claims beyond the public README as not detected."
+      ],
+      "tech": [
+        "Jupyter Notebook"
+      ],
+      "learning": [
+        "Jupyter Notebook",
+        "AI"
+      ],
+      "cover": null,
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/The-Sparks-Foudations-Task-1",
+      "images": [],
+      "gifs": [],
+      "mediaKind": "generated",
+      "readmeExcerpt": "# The-Sparks-Foudations-Task-1\n\npredict the percentage of students based on the no. of study hours it depend on linear regression classification I used python language, and jupyter notebook environment\n",
+      "hasReadme": true,
+      "featured": false,
+      "rank": 34,
+      "domain": "ai"
+    },
+    {
+      "id": "local-wccm",
+      "name": "local_wccm",
+      "fullName": "ahmaddroobi99/local_wccm",
+      "url": "https://github.com/ahmaddroobi99/local_wccm",
+      "description": null,
+      "homepage": null,
+      "language": "MATLAB",
+      "languages": {
+        "MATLAB": 803305,
+        "M": 85
+      },
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "sizeKb": 255,
+      "defaultBranch": "main",
+      "license": null,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2024-07-18T16:14:47Z",
+      "updatedAt": "2025-10-28T12:58:43Z",
+      "pushedAt": "2024-08-23T18:36:49Z",
+      "hasPages": false,
+      "category": "Scientific Computing",
+      "signalScore": 37.0,
+      "signalBreakdown": {
+        "relevance": 95,
+        "activity": 15,
+        "documentation": 10,
+        "visual": 8,
+        "complexity": 46,
+        "stars": 0,
+        "completeness": 40,
+        "recency": 20
+      },
+      "status": "Needs Maintenance",
+      "health": "Needs Maintenance",
+      "issues": [
+        "Missing description",
+        "Missing README",
+        "Missing license",
+        "Missing screenshots",
+        "Missing demo"
+      ],
+      "fourLines": [
+        "Public repository local_wccm.",
+        "The problem statement is not documented separately from the README and GitHub description.",
+        "Detected stack: MATLAB, M.",
+        "Treat claims beyond the public README as not detected."
+      ],
+      "tech": [
+        "MATLAB",
+        "M"
+      ],
+      "learning": [
+        "MATLAB",
+        "Scientific Computing"
+      ],
+      "cover": null,
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/local_wccm",
+      "images": [],
+      "gifs": [],
+      "mediaKind": "generated",
+      "readmeExcerpt": null,
+      "hasReadme": false,
+      "featured": false,
+      "rank": 35,
+      "domain": "scientific"
+    },
+    {
+      "id": "shapedetection-digital-image-processing",
+      "name": "ShapeDetection_Digital_image_processing",
+      "fullName": "ahmaddroobi99/ShapeDetection_Digital_image_processing",
+      "url": "https://github.com/ahmaddroobi99/ShapeDetection_Digital_image_processing",
+      "description": "it classify the shapes and sort them to circle triangle ,rectangles ,or others then it color it with specified color ",
+      "homepage": null,
+      "language": "Python",
+      "languages": {
+        "Python": 1002
+      },
+      "topics": [],
+      "stars": 1,
+      "forks": 0,
+      "openIssues": 0,
+      "sizeKb": 370,
+      "defaultBranch": "main",
+      "license": null,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2021-05-29T13:23:16Z",
+      "updatedAt": "2021-11-30T09:37:13Z",
+      "pushedAt": "2021-05-29T13:24:46Z",
+      "hasPages": false,
+      "category": "Computer Vision",
+      "signalScore": 36.5,
+      "signalBreakdown": {
+        "relevance": 76,
+        "activity": 15,
+        "documentation": 35,
+        "visual": 8,
+        "complexity": 38,
+        "stars": 4,
+        "completeness": 60,
+        "recency": 20
+      },
+      "status": "Inactive",
+      "health": "Needs Maintenance",
+      "issues": [
+        "Missing README",
+        "Missing license",
+        "Missing screenshots",
+        "Missing demo"
+      ],
+      "fourLines": [
+        "it classify the shapes and sort them to circle triangle ,rectangles ,or others then it color it with specified color.",
+        "The problem statement is not documented separately from the README and GitHub description.",
+        "Detected stack: Python.",
+        "Treat claims beyond the public README as not detected."
+      ],
+      "tech": [
+        "Python"
+      ],
+      "learning": [
+        "Python",
+        "Computer Vision"
+      ],
+      "cover": null,
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/ShapeDetection_Digital_image_processing",
+      "images": [],
+      "gifs": [],
+      "mediaKind": "generated",
+      "readmeExcerpt": null,
+      "hasReadme": false,
+      "featured": false,
+      "rank": 36,
+      "domain": "computer-vision"
+    },
+    {
+      "id": "dl-project-can-i-read-your-brain",
+      "name": "DL_Project_Can-I-read-your-brain-",
+      "fullName": "ahmaddroobi99/DL_Project_Can-I-read-your-brain-",
+      "url": "https://github.com/ahmaddroobi99/DL_Project_Can-I-read-your-brain-",
+      "description": "I am predicting the experienced feeling from the FC brain network with deep learning. ",
+      "homepage": null,
+      "language": "Jupyter Notebook",
+      "languages": {
+        "Jupyter Notebook": 18834646
+      },
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "sizeKb": 10849,
+      "defaultBranch": "main",
+      "license": null,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2024-06-13T01:16:33Z",
+      "updatedAt": "2025-10-28T12:49:35Z",
+      "pushedAt": "2024-06-13T01:23:33Z",
+      "hasPages": false,
+      "category": "AI",
+      "signalScore": 36.2,
+      "signalBreakdown": {
+        "relevance": 76,
+        "activity": 15,
+        "documentation": 35,
+        "visual": 8,
+        "complexity": 38,
+        "stars": 0,
+        "completeness": 60,
+        "recency": 20
+      },
+      "status": "Needs Maintenance",
+      "health": "Needs Maintenance",
+      "issues": [
+        "Missing README",
+        "Missing license",
+        "Missing screenshots",
+        "Missing demo"
+      ],
+      "fourLines": [
+        "I am predicting the experienced feeling from the FC brain network with deep learning.",
+        "The problem statement is not documented separately from the README and GitHub description.",
+        "Detected stack: Jupyter Notebook.",
+        "Treat claims beyond the public README as not detected."
+      ],
+      "tech": [
+        "Jupyter Notebook"
+      ],
+      "learning": [
+        "Jupyter Notebook",
+        "AI"
+      ],
+      "cover": null,
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/DL_Project_Can-I-read-your-brain-",
+      "images": [],
+      "gifs": [],
+      "mediaKind": "generated",
+      "readmeExcerpt": null,
+      "hasReadme": false,
+      "featured": false,
+      "rank": 37,
+      "domain": "ai"
+    },
+    {
+      "id": "mips-architure-project-2021",
+      "name": "MIPS_Architure_Project_2021",
+      "fullName": "ahmaddroobi99/MIPS_Architure_Project_2021",
+      "url": "https://github.com/ahmaddroobi99/MIPS_Architure_Project_2021",
+      "description": null,
+      "homepage": null,
+      "language": "Assembly",
+      "languages": {
+        "Assembly": 5758
+      },
+      "topics": [],
+      "stars": 1,
+      "forks": 0,
+      "openIssues": 0,
+      "sizeKb": 58,
+      "defaultBranch": "main",
+      "license": null,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2021-10-20T10:49:56Z",
+      "updatedAt": "2021-11-30T09:36:07Z",
+      "pushedAt": "2021-10-20T10:50:13Z",
+      "hasPages": false,
+      "category": "Systems",
+      "signalScore": 35.7,
+      "signalBreakdown": {
+        "relevance": 92,
+        "activity": 15,
+        "documentation": 10,
+        "visual": 8,
+        "complexity": 38,
+        "stars": 4,
+        "completeness": 40,
+        "recency": 20
+      },
+      "status": "Inactive",
+      "health": "Needs Maintenance",
+      "issues": [
+        "Missing description",
+        "Missing README",
+        "Missing license",
+        "Missing screenshots",
+        "Missing demo"
+      ],
+      "fourLines": [
+        "Public repository MIPS_Architure_Project_2021.",
+        "The problem statement is not documented separately from the README and GitHub description.",
+        "Detected stack: Assembly.",
+        "Treat claims beyond the public README as not detected."
+      ],
+      "tech": [
+        "Assembly"
+      ],
+      "learning": [
+        "Assembly",
+        "Systems"
+      ],
+      "cover": null,
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/MIPS_Architure_Project_2021",
+      "images": [],
+      "gifs": [],
+      "mediaKind": "generated",
+      "readmeExcerpt": null,
+      "hasReadme": false,
+      "featured": false,
+      "rank": 38,
+      "domain": "systems"
+    },
+    {
+      "id": "microcontroller-project",
+      "name": "Microcontroller_Project",
+      "fullName": "ahmaddroobi99/Microcontroller_Project",
+      "url": "https://github.com/ahmaddroobi99/Microcontroller_Project",
+      "description": null,
+      "homepage": null,
+      "language": "C",
+      "languages": {
+        "C": 40492,
+        "Makefile": 15262,
+        "Shell": 1393
+      },
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "sizeKb": 1307,
+      "defaultBranch": "main",
+      "license": null,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2022-04-25T18:52:40Z",
+      "updatedAt": "2022-07-15T18:42:21Z",
+      "pushedAt": "2022-05-11T17:50:00Z",
+      "hasPages": false,
+      "category": "Embedded",
+      "signalScore": 35.7,
+      "signalBreakdown": {
+        "relevance": 84,
+        "activity": 15,
+        "documentation": 10,
+        "visual": 8,
+        "complexity": 60,
+        "stars": 0,
+        "completeness": 40,
+        "recency": 20
+      },
+      "status": "Inactive",
+      "health": "Needs Maintenance",
+      "issues": [
+        "Missing description",
+        "Missing README",
+        "Missing license",
+        "Missing screenshots",
+        "Missing demo"
+      ],
+      "fourLines": [
+        "Public repository Microcontroller_Project.",
+        "The problem statement is not documented separately from the README and GitHub description.",
+        "Detected stack: C, Makefile, Shell.",
+        "Treat claims beyond the public README as not detected."
+      ],
+      "tech": [
+        "C",
+        "Makefile",
+        "Shell"
+      ],
+      "learning": [
+        "C",
+        "Systems"
+      ],
+      "cover": null,
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/Microcontroller_Project",
+      "images": [],
+      "gifs": [],
+      "mediaKind": "generated",
+      "readmeExcerpt": null,
+      "hasReadme": false,
+      "featured": false,
+      "rank": 39,
+      "domain": "robotics"
+    },
+    {
+      "id": "6.5-hourse-interview--with-creativehuman.ai",
+      "name": "6.5_Hourse-interview-_with_creativehuman.ai",
+      "fullName": "ahmaddroobi99/6.5_Hourse-interview-_with_creativehuman.ai",
+      "url": "https://github.com/ahmaddroobi99/6.5_Hourse-interview-_with_creativehuman.ai",
+      "description": "interview for 6.5 Hours ( Live) no internet ,no other help (its Startup for Cambridge university entrepreneur )  ",
+      "homepage": null,
+      "language": "Not detected",
+      "languages": {},
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "sizeKb": 67,
+      "defaultBranch": "main",
+      "license": null,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2021-12-10T20:49:22Z",
+      "updatedAt": "2022-01-10T10:15:36Z",
+      "pushedAt": "2021-12-10T21:08:16Z",
+      "hasPages": false,
+      "category": "Education",
+      "signalScore": 35.5,
+      "signalBreakdown": {
+        "relevance": 68,
+        "activity": 15,
+        "documentation": 53,
+        "visual": 8,
+        "complexity": 18,
+        "stars": 0,
+        "completeness": 70,
+        "recency": 20
+      },
+      "status": "Inactive",
+      "health": "Needs Maintenance",
+      "issues": [
+        "Missing license",
+        "Missing screenshots",
+        "Missing demo",
+        "Language undetected"
+      ],
+      "fourLines": [
+        "interview for 6.5 Hours ( Live) no internet ,no other help (its Startup for Cambridge university entrepreneur ).",
+        "The problem statement is not documented separately from the README and GitHub description.",
+        "Detected stack: Not detected.",
+        "Treat claims beyond the public README as not detected."
+      ],
+      "tech": [],
+      "learning": [
+        "AI"
+      ],
+      "cover": null,
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/6.5_Hourse-interview-_with_creativehuman.ai",
+      "images": [],
+      "gifs": [],
+      "mediaKind": "generated",
+      "readmeExcerpt": "# 6.5_Hourse-interview-_with_creativehuman.ai\ninterview for 6.5 Hours ( Live) no internet ,no other help (its Startup for Cambridge university entrepreneur )  \n",
+      "hasReadme": true,
+      "featured": false,
+      "rank": 40,
+      "domain": "experiments"
+    },
+    {
+      "id": "os-project-2022",
+      "name": "OS-Project_2022",
+      "fullName": "ahmaddroobi99/OS-Project_2022",
+      "url": "https://github.com/ahmaddroobi99/OS-Project_2022",
+      "description": null,
+      "homepage": null,
+      "language": "C++",
+      "languages": {
+        "C++": 3010,
+        "Makefile": 262,
+        "Nix": 81
+      },
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "sizeKb": 405,
+      "defaultBranch": "master",
+      "license": null,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2022-03-25T14:52:41Z",
+      "updatedAt": "2023-01-05T13:39:44Z",
+      "pushedAt": "2022-03-25T15:00:07Z",
+      "hasPages": false,
+      "category": "Systems",
+      "signalScore": 35.1,
+      "signalBreakdown": {
+        "relevance": 84,
+        "activity": 15,
+        "documentation": 10,
+        "visual": 8,
+        "complexity": 54,
+        "stars": 0,
+        "completeness": 40,
+        "recency": 20
+      },
+      "status": "Inactive",
+      "health": "Needs Maintenance",
+      "issues": [
+        "Missing description",
+        "Missing README",
+        "Missing license",
+        "Missing screenshots",
+        "Missing demo"
+      ],
+      "fourLines": [
+        "Public repository OS-Project_2022.",
+        "The problem statement is not documented separately from the README and GitHub description.",
+        "Detected stack: C++, Makefile, Nix.",
+        "Treat claims beyond the public README as not detected."
+      ],
+      "tech": [
+        "C++",
+        "Makefile",
+        "Nix"
+      ],
+      "learning": [
+        "C++",
+        "Systems"
+      ],
+      "cover": null,
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/OS-Project_2022",
+      "images": [],
+      "gifs": [],
+      "mediaKind": "generated",
+      "readmeExcerpt": null,
+      "hasReadme": false,
+      "featured": false,
+      "rank": 41,
+      "domain": "systems"
+    },
+    {
+      "id": "business-predication-tensoflow-deeplearning",
+      "name": "Business_Predication_Tensoflow_DeepLearning-",
+      "fullName": "ahmaddroobi99/Business_Predication_Tensoflow_DeepLearning-",
+      "url": "https://github.com/ahmaddroobi99/Business_Predication_Tensoflow_DeepLearning-",
+      "description": "Predict the Loyalty of the customers if they will by a gain using Deep learning with Tesnorflow ",
+      "homepage": null,
+      "language": "Jupyter Notebook",
+      "languages": {
+        "Jupyter Notebook": 21759
+      },
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "sizeKb": 177,
+      "defaultBranch": "main",
+      "license": null,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2021-11-15T04:54:50Z",
+      "updatedAt": "2022-01-10T10:18:04Z",
+      "pushedAt": "2021-11-15T05:17:30Z",
+      "hasPages": false,
+      "category": "Machine Learning",
+      "signalScore": 35.0,
+      "signalBreakdown": {
+        "relevance": 76,
+        "activity": 15,
+        "documentation": 35,
+        "visual": 8,
+        "complexity": 26,
+        "stars": 0,
+        "completeness": 60,
+        "recency": 20
+      },
+      "status": "Inactive",
+      "health": "Needs Maintenance",
+      "issues": [
+        "Missing README",
+        "Missing license",
+        "Missing screenshots",
+        "Missing demo"
+      ],
+      "fourLines": [
+        "Predict the Loyalty of the customers if they will by a gain using Deep learning with Tesnorflow.",
+        "The problem statement is not documented separately from the README and GitHub description.",
+        "Detected stack: Jupyter Notebook.",
+        "Treat claims beyond the public README as not detected."
+      ],
+      "tech": [
+        "Jupyter Notebook"
+      ],
+      "learning": [
+        "Jupyter Notebook",
+        "AI"
+      ],
+      "cover": null,
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/Business_Predication_Tensoflow_DeepLearning-",
+      "images": [],
+      "gifs": [],
+      "mediaKind": "generated",
+      "readmeExcerpt": null,
+      "hasReadme": false,
+      "featured": false,
+      "rank": 42,
+      "domain": "ai"
+    },
+    {
+      "id": "rb-bst-sa-representation",
+      "name": "RB_BST_SA-Representation-",
+      "fullName": "ahmaddroobi99/RB_BST_SA-Representation-",
+      "url": "https://github.com/ahmaddroobi99/RB_BST_SA-Representation-",
+      "description": " red\u2013black tree is a kind of self-balancing binary search tree ,Each node stores an extra bit representing \"color\" (\"red\" or \"black\"), used to ensure that the tree remains balanced during insertions and deletions, and that gave us (log( n)) search and find max or min or sorting either in less time in general ,but what make this project special is that instead of pointers to do our manipulations and insertions to build red black tree (that costs log ) we used Array of Nodes indexes to represent our red black tree structure, in a hard coded imagination we successfully seek the advantage that the array give us type of locality ,and with higher performance either compared to pointers for example ,and in the last we used c++ (cause its better in performance especially in algorithms like this)to Convert out Algorithm to hard coded implementation inheriting from abstract base class BST to override to to its methods and functions ADDING the properties of the red_black_tree, make me and my partner not sleeping for 4 days ,Done under the supervision of Dr. Samer Arandi",
+      "homepage": null,
+      "language": "C++",
+      "languages": {
+        "C++": 12636
+      },
+      "topics": [],
+      "stars": 1,
+      "forks": 1,
+      "openIssues": 0,
+      "sizeKb": 6,
+      "defaultBranch": "main",
+      "license": null,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2021-07-31T06:11:04Z",
+      "updatedAt": "2021-11-30T09:36:52Z",
+      "pushedAt": "2021-08-03T04:21:32Z",
+      "hasPages": false,
+      "category": "Systems",
+      "signalScore": 33.6,
+      "signalBreakdown": {
+        "relevance": 68,
+        "activity": 15,
+        "documentation": 35,
+        "visual": 8,
+        "complexity": 30,
+        "stars": 4,
+        "completeness": 60,
+        "recency": 20
+      },
+      "status": "Inactive",
+      "health": "Needs Maintenance",
+      "issues": [
+        "Missing README",
+        "Missing license",
+        "Missing screenshots",
+        "Missing demo"
+      ],
+      "fourLines": [
+        "red\u2013black tree is a kind of self-balancing binary search tree ,Each node stores an extra bit representing \"color\" (\"red\" or \"black\"), used to ensure that the tree remains balanced during insertions and deletions, and that gave us (log( n)) ",
+        "The problem statement is not documented separately from the README and GitHub description.",
+        "Detected stack: C++.",
+        "Treat claims beyond the public README as not detected."
+      ],
+      "tech": [
+        "C++"
+      ],
+      "learning": [
+        "C++",
+        "AI"
+      ],
+      "cover": null,
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/RB_BST_SA-Representation-",
+      "images": [],
+      "gifs": [],
+      "mediaKind": "generated",
+      "readmeExcerpt": null,
+      "hasReadme": false,
+      "featured": false,
+      "rank": 43,
+      "domain": "systems"
+    },
+    {
+      "id": "microcontroller-airconditionsystem-desgin",
+      "name": "Microcontroller_AirConditionSystem-DEsgin-",
+      "fullName": "ahmaddroobi99/Microcontroller_AirConditionSystem-DEsgin-",
+      "url": "https://github.com/ahmaddroobi99/Microcontroller_AirConditionSystem-DEsgin-",
+      "description": null,
+      "homepage": null,
+      "language": "C",
+      "languages": {
+        "C": 40492,
+        "Makefile": 3381
+      },
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "sizeKb": 15,
+      "defaultBranch": "main",
+      "license": null,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2022-04-25T18:50:39Z",
+      "updatedAt": "2023-01-05T13:39:06Z",
+      "pushedAt": "2022-04-25T18:51:16Z",
+      "hasPages": false,
+      "category": "Embedded",
+      "signalScore": 33.5,
+      "signalBreakdown": {
+        "relevance": 84,
+        "activity": 15,
+        "documentation": 10,
+        "visual": 8,
+        "complexity": 38,
+        "stars": 0,
+        "completeness": 40,
+        "recency": 20
+      },
+      "status": "Inactive",
+      "health": "Needs Maintenance",
+      "issues": [
+        "Missing description",
+        "Missing README",
+        "Missing license",
+        "Missing screenshots",
+        "Missing demo"
+      ],
+      "fourLines": [
+        "Public repository Microcontroller_AirConditionSystem-DEsgin-.",
+        "The problem statement is not documented separately from the README and GitHub description.",
+        "Detected stack: C, Makefile.",
+        "Treat claims beyond the public README as not detected."
+      ],
+      "tech": [
+        "C",
+        "Makefile"
+      ],
+      "learning": [
+        "C",
+        "Systems"
+      ],
+      "cover": null,
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/Microcontroller_AirConditionSystem-DEsgin-",
+      "images": [],
+      "gifs": [],
+      "mediaKind": "generated",
+      "readmeExcerpt": null,
+      "hasReadme": false,
+      "featured": false,
+      "rank": 44,
+      "domain": "robotics"
+    },
+    {
+      "id": "djangoreact-firstproject-test",
+      "name": "DjangoReact_FirstProject_Test",
+      "fullName": "ahmaddroobi99/DjangoReact_FirstProject_Test",
+      "url": "https://github.com/ahmaddroobi99/DjangoReact_FirstProject_Test",
+      "description": null,
+      "homepage": null,
+      "language": "Python",
+      "languages": {
+        "Python": 11944766,
+        "JavaScript": 116173,
+        "HTML": 111431,
+        "CSS": 84522,
+        "PowerShell": 18930,
+        "Batchfile": 1300
+      },
+      "topics": [],
+      "stars": 1,
+      "forks": 0,
+      "openIssues": 11,
+      "sizeKb": 12886,
+      "defaultBranch": "master",
+      "license": null,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2021-11-02T18:26:26Z",
+      "updatedAt": "2022-09-10T10:55:34Z",
+      "pushedAt": "2023-03-07T01:41:15Z",
+      "hasPages": false,
+      "category": "Web",
+      "signalScore": 33.3,
+      "signalBreakdown": {
+        "relevance": 69,
+        "activity": 15,
+        "documentation": 10,
+        "visual": 8,
+        "complexity": 72,
+        "stars": 4,
+        "completeness": 40,
+        "recency": 20
+      },
+      "status": "Inactive",
+      "health": "Needs Maintenance",
+      "issues": [
+        "Missing description",
+        "Missing README",
+        "Missing license",
+        "Missing screenshots",
+        "Missing demo"
+      ],
+      "fourLines": [
+        "Public repository DjangoReact_FirstProject_Test.",
+        "The problem statement is not documented separately from the README and GitHub description.",
+        "Detected stack: Python, JavaScript, HTML, CSS.",
+        "Treat claims beyond the public README as not detected."
+      ],
+      "tech": [
+        "Python",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "PowerShell",
+        "Batchfile"
+      ],
+      "learning": [
+        "Python",
+        "Web",
+        "Django",
+        "React"
+      ],
+      "cover": null,
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/DjangoReact_FirstProject_Test",
+      "images": [],
+      "gifs": [],
+      "mediaKind": "generated",
+      "readmeExcerpt": null,
+      "hasReadme": false,
+      "featured": false,
+      "rank": 45,
+      "domain": "software"
+    },
+    {
+      "id": "problemsolving",
+      "name": "ProblemSolving",
+      "fullName": "ahmaddroobi99/ProblemSolving",
+      "url": "https://github.com/ahmaddroobi99/ProblemSolving",
+      "description": "Any problem i liked it  i solved it ",
+      "homepage": null,
+      "language": "Python",
+      "languages": {
+        "Python": 390650,
+        "Java": 3351
+      },
+      "topics": [],
+      "stars": 2,
+      "forks": 0,
+      "openIssues": 0,
+      "sizeKb": 5843,
+      "defaultBranch": "master",
+      "license": null,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2021-06-15T05:21:30Z",
+      "updatedAt": "2022-01-10T08:21:16Z",
+      "pushedAt": "2022-04-07T21:35:39Z",
+      "hasPages": false,
+      "category": "Education",
+      "signalScore": 32.1,
+      "signalBreakdown": {
+        "relevance": 45,
+        "activity": 15,
+        "documentation": 35,
+        "visual": 8,
+        "complexity": 58,
+        "stars": 8,
+        "completeness": 85,
+        "recency": 20
+      },
+      "status": "Inactive",
+      "health": "Needs Maintenance",
+      "issues": [
+        "Missing license",
+        "Missing screenshots",
+        "Missing demo"
+      ],
+      "fourLines": [
+        "Any problem i liked it i solved it.",
+        "The problem statement is not documented separately from the README and GitHub description.",
+        "Detected stack: Python, Java.",
+        "Treat claims beyond the public README as not detected."
+      ],
+      "tech": [
+        "Python",
+        "Java"
+      ],
+      "learning": [
+        "Python"
+      ],
+      "cover": null,
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/ProblemSolving",
+      "images": [],
+      "gifs": [],
+      "mediaKind": "generated",
+      "readmeExcerpt": "# ProblemSolving\nAny problem i liked it  i solved it \n\n",
+      "hasReadme": true,
+      "featured": false,
+      "rank": 46,
+      "domain": "experiments"
+    },
+    {
+      "id": "datastructure-algorithms-training-2020-c",
+      "name": "DataStructure_Algorithms_Training_2020_C-",
+      "fullName": "ahmaddroobi99/DataStructure_Algorithms_Training_2020_C-",
+      "url": "https://github.com/ahmaddroobi99/DataStructure_Algorithms_Training_2020_C-",
+      "description": null,
+      "homepage": null,
+      "language": "C++",
+      "languages": {
+        "C++": 56308
+      },
+      "topics": [],
+      "stars": 1,
+      "forks": 0,
+      "openIssues": 0,
+      "sizeKb": 70406,
+      "defaultBranch": "master",
+      "license": null,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2021-10-25T07:24:03Z",
+      "updatedAt": "2021-11-30T09:35:58Z",
+      "pushedAt": "2021-10-25T07:36:33Z",
+      "hasPages": false,
+      "category": "Systems",
+      "signalScore": 31.4,
+      "signalBreakdown": {
+        "relevance": 68,
+        "activity": 15,
+        "documentation": 10,
+        "visual": 8,
+        "complexity": 55,
+        "stars": 4,
+        "completeness": 40,
+        "recency": 20
+      },
+      "status": "Inactive",
+      "health": "Needs Maintenance",
+      "issues": [
+        "Missing description",
+        "Missing README",
+        "Missing license",
+        "Missing screenshots",
+        "Missing demo"
+      ],
+      "fourLines": [
+        "Public repository DataStructure_Algorithms_Training_2020_C-.",
+        "The problem statement is not documented separately from the README and GitHub description.",
+        "Detected stack: C++.",
+        "Treat claims beyond the public README as not detected."
+      ],
+      "tech": [
+        "C++"
+      ],
+      "learning": [
+        "C++",
+        "AI"
+      ],
+      "cover": null,
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/DataStructure_Algorithms_Training_2020_C-",
+      "images": [],
+      "gifs": [],
+      "mediaKind": "generated",
+      "readmeExcerpt": null,
+      "hasReadme": false,
+      "featured": false,
+      "rank": 47,
+      "domain": "systems"
+    },
+    {
+      "id": "trainningpython",
+      "name": "TrainningPython",
+      "fullName": "ahmaddroobi99/TrainningPython",
+      "url": "https://github.com/ahmaddroobi99/TrainningPython",
+      "description": null,
+      "homepage": null,
+      "language": "Python",
+      "languages": {
+        "Python": 32675
+      },
+      "topics": [],
+      "stars": 1,
+      "forks": 0,
+      "openIssues": 0,
+      "sizeKb": 147598,
+      "defaultBranch": "master",
+      "license": null,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2021-06-17T06:55:56Z",
+      "updatedAt": "2021-11-30T09:37:08Z",
+      "pushedAt": "2021-06-21T08:28:38Z",
+      "hasPages": false,
+      "category": "Education",
+      "signalScore": 31.4,
+      "signalBreakdown": {
+        "relevance": 68,
+        "activity": 15,
+        "documentation": 10,
+        "visual": 8,
+        "complexity": 55,
+        "stars": 4,
+        "completeness": 40,
+        "recency": 20
+      },
+      "status": "Inactive",
+      "health": "Needs Maintenance",
+      "issues": [
+        "Missing description",
+        "Missing README",
+        "Missing license",
+        "Missing screenshots",
+        "Missing demo"
+      ],
+      "fourLines": [
+        "Public repository TrainningPython.",
+        "The problem statement is not documented separately from the README and GitHub description.",
+        "Detected stack: Python.",
+        "Treat claims beyond the public README as not detected."
+      ],
+      "tech": [
+        "Python"
+      ],
+      "learning": [
+        "Python",
+        "AI"
+      ],
+      "cover": null,
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/TrainningPython",
+      "images": [],
+      "gifs": [],
+      "mediaKind": "generated",
+      "readmeExcerpt": null,
+      "hasReadme": false,
+      "featured": false,
+      "rank": 48,
+      "domain": "experiments"
+    },
+    {
+      "id": "flask-user-model-authentication",
+      "name": "Flask_user_Model_Authentication-",
+      "fullName": "ahmaddroobi99/Flask_user_Model_Authentication-",
+      "url": "https://github.com/ahmaddroobi99/Flask_user_Model_Authentication-",
+      "description": null,
+      "homepage": null,
+      "language": "HTML",
+      "languages": {
+        "HTML": 10647,
+        "Python": 3483,
+        "CSS": 2446
+      },
+      "topics": [],
+      "stars": 1,
+      "forks": 0,
+      "openIssues": 0,
+      "sizeKb": 6,
+      "defaultBranch": "master",
+      "license": null,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2021-08-11T07:06:22Z",
+      "updatedAt": "2021-11-30T09:36:50Z",
+      "pushedAt": "2021-08-12T09:12:18Z",
+      "hasPages": false,
+      "category": "Web",
+      "signalScore": 31.3,
+      "signalBreakdown": {
+        "relevance": 76,
+        "activity": 15,
+        "documentation": 10,
+        "visual": 8,
+        "complexity": 34,
+        "stars": 4,
+        "completeness": 40,
+        "recency": 20
+      },
+      "status": "Inactive",
+      "health": "Needs Maintenance",
+      "issues": [
+        "Missing description",
+        "Missing README",
+        "Missing license",
+        "Missing screenshots",
+        "Missing demo"
+      ],
+      "fourLines": [
+        "Public repository Flask_user_Model_Authentication-.",
+        "The problem statement is not documented separately from the README and GitHub description.",
+        "Detected stack: HTML, Python, CSS.",
+        "Treat claims beyond the public README as not detected."
+      ],
+      "tech": [
+        "HTML",
+        "Python",
+        "CSS"
+      ],
+      "learning": [
+        "HTML",
+        "AI"
+      ],
+      "cover": null,
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/Flask_user_Model_Authentication-",
+      "images": [],
+      "gifs": [],
+      "mediaKind": "generated",
+      "readmeExcerpt": null,
+      "hasReadme": false,
+      "featured": false,
+      "rank": 49,
+      "domain": "software"
+    },
+    {
+      "id": "cookoverflow-mobile-gradproject-2022",
+      "name": "cookoverflow_Mobile_GradProject_2022",
+      "fullName": "ahmaddroobi99/cookoverflow_Mobile_GradProject_2022",
+      "url": "https://github.com/ahmaddroobi99/cookoverflow_Mobile_GradProject_2022",
+      "description": null,
+      "homepage": "https://flutter.dev/docs/get-started/codelab",
+      "language": "Dart",
+      "languages": {
+        "Dart": 37520,
+        "Swift": 404,
+        "Kotlin": 129,
+        "Objective-C": 38
+      },
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "sizeKb": 145,
+      "defaultBranch": "master",
+      "license": null,
+      "fork": false,
+      "archived": false,
+      "createdAt": "2022-04-18T15:41:17Z",
+      "updatedAt": "2022-07-15T18:40:49Z",
+      "pushedAt": "2022-05-09T19:59:27Z",
+      "hasPages": false,
+      "category": "Software",
+      "signalScore": 31.2,
+      "signalBreakdown": {
+        "relevance": 45,
+        "activity": 15,
+        "documentation": 45,
+        "visual": 8,
+        "complexity": 48,
+        "stars": 0,
+        "completeness": 65,
+        "recency": 20
+      },
+      "status": "Inactive",
+      "health": "Needs Maintenance",
+      "issues": [
+        "Missing description",
+        "Missing license",
+        "Missing screenshots",
+        "Missing demo"
+      ],
+      "fourLines": [
+        "cookoverflow A new Flutter project.",
+        "Getting Started This project is a starting point for a Flutter application.",
+        "Detected stack: Dart, Swift, Kotlin, Objective-C.",
+        "A few resources to get you started if this is your first Flutter project: - Lab: Write your first Flutter app - Cookbook: Useful Flutter samples For help getting started with Flutter, view our online documentation, which offers tutorials, s"
+      ],
+      "tech": [
+        "Dart",
+        "Swift",
+        "Kotlin",
+        "Objective-C"
+      ],
+      "learning": [
+        "Dart",
+        "Software"
+      ],
+      "cover": null,
+      "ogImage": "https://opengraph.githubassets.com/1/ahmaddroobi99/cookoverflow_Mobile_GradProject_2022",
+      "images": [],
+      "gifs": [],
+      "mediaKind": "generated",
+      "readmeExcerpt": "# cookoverflow\n\nA new Flutter project.\n\n## Getting Started\n\nThis project is a starting point for a Flutter application.\n\nA few resources to get you started if this is your first Flutter project:\n\n- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)\n- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)\n\nFor help getting started with Flutter, view our\n[online documentation](https://flutter.dev/docs), which offers tutorials,\nsamples, guidance on mobile development, and a full API reference.\n",
+      "hasReadme": true,
+      "featured": false,
+      "rank": 50,
+      "domain": "software"
+    }
+  ],
+  "allIndexed": [
+    {
+      "id": "qg-lada-lab",
+      "name": "qg-lada-lab",
+      "signalScore": 70.4,
+      "category": "Scientific Computing",
+      "fork": false
+    },
+    {
+      "id": "ridgeflight",
+      "name": "ridgeflight",
+      "signalScore": 69.7,
+      "category": "AI",
+      "fork": false
+    },
+    {
+      "id": "ai-engineering-command-center",
+      "name": "ai-engineering-command-center",
+      "signalScore": 69.2,
+      "category": "AI",
+      "fork": false
+    },
+    {
+      "id": "forge-mind",
+      "name": "forge-mind",
+      "signalScore": 68.5,
+      "category": "Computer Vision",
+      "fork": false
+    },
+    {
+      "id": "mosqguard",
+      "name": "mosqguard",
+      "signalScore": 68.5,
+      "category": "Robotics",
+      "fork": false
+    },
+    {
+      "id": "aether-visualizer",
+      "name": "aether-visualizer",
+      "signalScore": 67.5,
+      "category": "Web",
+      "fork": false
+    },
+    {
+      "id": "aetherforge",
+      "name": "aetherforge",
+      "signalScore": 66.5,
+      "category": "AI",
+      "fork": false
+    },
+    {
+      "id": "wake",
+      "name": "wake",
+      "signalScore": 65.8,
+      "category": "AI",
+      "fork": false
+    },
+    {
+      "id": "aws-from-scratch",
+      "name": "aws-from-scratch",
+      "signalScore": 65.2,
+      "category": "Cloud",
+      "fork": false
+    },
+    {
+      "id": "world-pulse",
+      "name": "world-pulse",
+      "signalScore": 65.1,
+      "category": "AI",
+      "fork": false
+    },
+    {
+      "id": "ai-lifecycle-100",
+      "name": "ai-lifecycle-100",
+      "signalScore": 63.7,
+      "category": "AI",
+      "fork": false
+    },
+    {
+      "id": "tensortonic-rag-from-scratch",
+      "name": "tensortonic-rag-from-scratch",
+      "signalScore": 62.0,
+      "category": "AI",
+      "fork": false
+    },
+    {
+      "id": "cad-design-datasets-100",
+      "name": "cad-design-datasets-100",
+      "signalScore": 61.7,
+      "category": "Systems",
+      "fork": false
+    },
+    {
+      "id": "tensortonic-solutions",
+      "name": "TensorTonic-Solutions",
+      "signalScore": 60.7,
+      "category": "AI",
+      "fork": false
+    },
+    {
+      "id": "200-dataset-websites",
+      "name": "200-dataset-websites",
+      "signalScore": 59.5,
+      "category": "AI",
+      "fork": false
+    },
+    {
+      "id": "ahmaddroobi99.github.io",
+      "name": "ahmaddroobi99.github.io",
+      "signalScore": 58.7,
+      "category": "AI",
+      "fork": false
+    },
+    {
+      "id": "resource-graph-crawler",
+      "name": "resource-graph-crawler",
+      "signalScore": 58.1,
+      "category": "AI",
+      "fork": false
+    },
+    {
+      "id": "ahmadd",
+      "name": "ahmadd",
+      "signalScore": 57.4,
+      "category": "Web",
+      "fork": false
+    },
+    {
+      "id": "seniorgraduationproject2022-cookoverflow",
+      "name": "seniorGraduationProject2022_cookOverflow",
+      "signalScore": 57.4,
+      "category": "AI",
+      "fork": false
+    },
+    {
+      "id": "my-cv-website-2021",
+      "name": "My_CV_Website_2021",
+      "signalScore": 52.9,
+      "category": "Web",
+      "fork": false
+    },
+    {
+      "id": "smiles-2026-signal-ad",
+      "name": "SMILES-2026-Signal-AD",
+      "signalScore": 49.1,
+      "category": "AI",
+      "fork": false
+    },
+    {
+      "id": "softwareproject-2021-agile-trello",
+      "name": "SoftwareProject_2021_Agile_Trello",
+      "signalScore": 43.0,
+      "category": "AI",
+      "fork": false
+    },
+    {
+      "id": "clemson-project-realtime-face-emotion-recognition-tensorflow-transfer-learning-python",
+      "name": "Clemson_Project_Realtime-Face-Emotion-Recognition-Tensorflow-Transfer-Learning-Python",
+      "signalScore": 42.5,
+      "category": "AI",
+      "fork": false
+    },
+    {
+      "id": "droobi-personal-website-django-2022",
+      "name": "Droobi_Personal_Website_Django_2022",
+      "signalScore": 42.0,
+      "category": "Web",
+      "fork": false
+    },
+    {
+      "id": "computer-architecture-project-piplined--cpu-2021",
+      "name": "computer_Architecture_Project_Piplined-_CPU_2021",
+      "signalScore": 41.2,
+      "category": "Systems",
+      "fork": false
+    },
+    {
+      "id": "cookersystemdesgin-microcontroller",
+      "name": "CookerSystemDesgin_Microcontroller",
+      "signalScore": 41.0,
+      "category": "Systems",
+      "fork": false
+    },
+    {
+      "id": "messnger-filetransfer-stopandwaitprotocol-udp",
+      "name": "Messnger_FileTransfer_StopAndWaitProtocol_UDP",
+      "signalScore": 40.0,
+      "category": "Systems",
+      "fork": false
+    },
+    {
+      "id": "wordcup2022-winnerprediction-ml",
+      "name": "WordCup2022_WinnerPrediction_ML",
+      "signalScore": 40.0,
+      "category": "AI",
+      "fork": false
+    },
+    {
+      "id": "bayzat-task-backend",
+      "name": "Bayzat_Task_Backend",
+      "signalScore": 39.2,
+      "category": "AI",
+      "fork": false
+    },
+    {
+      "id": "enme517",
+      "name": "ENME517",
+      "signalScore": 38.8,
+      "category": "Scientific Computing",
+      "fork": false
+    },
+    {
+      "id": "desigos-shell-and-copycommand-2022",
+      "name": "DesigOS-Shell-and-CopyCommand_2022",
+      "signalScore": 37.5,
+      "category": "Systems",
+      "fork": false
+    },
+    {
+      "id": "vianeos-interview",
+      "name": "Vianeos_Interview",
+      "signalScore": 37.4,
+      "category": "Systems",
+      "fork": false
+    },
+    {
+      "id": "the-sparks-foudations-task-1",
+      "name": "The-Sparks-Foudations-Task-1",
+      "signalScore": 37.0,
+      "category": "AI",
+      "fork": false
+    },
+    {
+      "id": "local-wccm",
+      "name": "local_wccm",
+      "signalScore": 37.0,
+      "category": "Scientific Computing",
+      "fork": false
+    },
+    {
+      "id": "shapedetection-digital-image-processing",
+      "name": "ShapeDetection_Digital_image_processing",
+      "signalScore": 36.5,
+      "category": "Computer Vision",
+      "fork": false
+    },
+    {
+      "id": "dl-project-can-i-read-your-brain",
+      "name": "DL_Project_Can-I-read-your-brain-",
+      "signalScore": 36.2,
+      "category": "AI",
+      "fork": false
+    },
+    {
+      "id": "mips-architure-project-2021",
+      "name": "MIPS_Architure_Project_2021",
+      "signalScore": 35.7,
+      "category": "Systems",
+      "fork": false
+    },
+    {
+      "id": "microcontroller-project",
+      "name": "Microcontroller_Project",
+      "signalScore": 35.7,
+      "category": "Systems",
+      "fork": false
+    },
+    {
+      "id": "6.5-hourse-interview--with-creativehuman.ai",
+      "name": "6.5_Hourse-interview-_with_creativehuman.ai",
+      "signalScore": 35.5,
+      "category": "AI",
+      "fork": false
+    },
+    {
+      "id": "os-project-2022",
+      "name": "OS-Project_2022",
+      "signalScore": 35.1,
+      "category": "Systems",
+      "fork": false
+    },
+    {
+      "id": "business-predication-tensoflow-deeplearning",
+      "name": "Business_Predication_Tensoflow_DeepLearning-",
+      "signalScore": 35.0,
+      "category": "AI",
+      "fork": false
+    },
+    {
+      "id": "rb-bst-sa-representation",
+      "name": "RB_BST_SA-Representation-",
+      "signalScore": 33.6,
+      "category": "AI",
+      "fork": false
+    },
+    {
+      "id": "microcontroller-airconditionsystem-desgin",
+      "name": "Microcontroller_AirConditionSystem-DEsgin-",
+      "signalScore": 33.5,
+      "category": "Systems",
+      "fork": false
+    },
+    {
+      "id": "djangoreact-firstproject-test",
+      "name": "DjangoReact_FirstProject_Test",
+      "signalScore": 33.3,
+      "category": "Web",
+      "fork": false
+    },
+    {
+      "id": "problemsolving",
+      "name": "ProblemSolving",
+      "signalScore": 32.1,
+      "category": "Python",
+      "fork": false
+    },
+    {
+      "id": "datastructure-algorithms-training-2020-c",
+      "name": "DataStructure_Algorithms_Training_2020_C-",
+      "signalScore": 31.4,
+      "category": "AI",
+      "fork": false
+    },
+    {
+      "id": "trainningpython",
+      "name": "TrainningPython",
+      "signalScore": 31.4,
+      "category": "AI",
+      "fork": false
+    },
+    {
+      "id": "flask-user-model-authentication",
+      "name": "Flask_user_Model_Authentication-",
+      "signalScore": 31.3,
+      "category": "AI",
+      "fork": false
+    },
+    {
+      "id": "cookoverflow-mobile-gradproject-2022",
+      "name": "cookoverflow_Mobile_GradProject_2022",
+      "signalScore": 31.2,
+      "category": "Software",
+      "fork": false
+    },
+    {
+      "id": "advancedjavascriptcourse-i-used",
+      "name": "AdvancedJavaScriptCourse_I_Used",
+      "signalScore": 30.5,
+      "category": "AI",
+      "fork": false
+    },
+    {
+      "id": "webcourse-hws-1-2-3-2021",
+      "name": "WebCourse_HWs_1_2_3_2021",
+      "signalScore": 30.5,
+      "category": "AI",
+      "fork": false
+    },
+    {
+      "id": "django-1",
+      "name": "Django_1",
+      "signalScore": 30.1,
+      "category": "Web",
+      "fork": false
+    },
+    {
+      "id": "finalproject-django-asal",
+      "name": "FinalProject_Django_Asal",
+      "signalScore": 30.1,
+      "category": "Web",
+      "fork": false
+    },
+    {
+      "id": "artificial-intelligence-ckecker-ai-game",
+      "name": "Artificial_Intelligence_Ckecker_AI_Game",
+      "signalScore": 30.1,
+      "category": "AI",
+      "fork": false
+    },
+    {
+      "id": "neeva-s-software-engineer-browser-extensions-position-taskofhiring-systemdesgin",
+      "name": "Neeva-s-Software-Engineer-Browser-Extensions-position_TaskOFHiring_systemDesgin",
+      "signalScore": 29.9,
+      "category": "Systems",
+      "fork": false
+    },
+    {
+      "id": "numerical-python-2021",
+      "name": "Numerical_Python_2021",
+      "signalScore": 29.7,
+      "category": "Scientific Computing",
+      "fork": false
+    },
+    {
+      "id": "datastructures-algorithm-projects-1-2-3-2020",
+      "name": "DataStructures_Algorithm_Projects_1_2_3_2020",
+      "signalScore": 29.4,
+      "category": "Systems",
+      "fork": false
+    },
+    {
+      "id": "deep-learning-with-tensorflow-2",
+      "name": "Deep-Learning-with-TensorFlow-2",
+      "signalScore": 29.3,
+      "category": "AI",
+      "fork": false
+    },
+    {
+      "id": "file-operation-json-xml-parsing",
+      "name": "File-Operation-JSON-XML-Parsing",
+      "signalScore": 28.9,
+      "category": "AI",
+      "fork": false
+    },
+    {
+      "id": "ml-bigdata-clemsonfellowship-2021-2022",
+      "name": "ML-BigData-ClemsonFellowShip_2021_2022",
+      "signalScore": 28.9,
+      "category": "AI",
+      "fork": false
+    },
+    {
+      "id": "springboot-backend-raining",
+      "name": "SpringBoot_BackEnd_Raining",
+      "signalScore": 28.5,
+      "category": "AI",
+      "fork": false
+    },
+    {
+      "id": "mnist-tensorflow-deeplearning",
+      "name": "MNIST_Tensorflow_DeepLearning",
+      "signalScore": 28.5,
+      "category": "AI",
+      "fork": false
+    },
+    {
+      "id": "webproject",
+      "name": "webProject",
+      "signalScore": 28.1,
+      "category": "Web",
+      "fork": false
+    },
+    {
+      "id": "relationalai-dsa-interview",
+      "name": "RelationalAI_DSA_Interview",
+      "signalScore": 28.0,
+      "category": "AI",
+      "fork": false
+    },
+    {
+      "id": "djangoprojects",
+      "name": "DjangoProjects",
+      "signalScore": 27.9,
+      "category": "Web",
+      "fork": false
+    },
+    {
+      "id": "flutter-projects-2021-chatapp",
+      "name": "Flutter_Projects_2021_ChatApp",
+      "signalScore": 27.8,
+      "category": "Web",
+      "fork": false
+    },
+    {
+      "id": "interview-school-by-ahmad--resources-i-used",
+      "name": "Interview-School-By-Ahmad-_Resources-I-used",
+      "signalScore": 27.7,
+      "category": "Other",
+      "fork": false
+    },
+    {
+      "id": "exalt-programming-contest",
+      "name": "Exalt_Programming_contest",
+      "signalScore": 27.7,
+      "category": "Python",
+      "fork": false
+    },
+    {
+      "id": "algorithmdesgincourse-udemy--java",
+      "name": "AlgorithmDesginCourse_udemy__Java",
+      "signalScore": 27.6,
+      "category": "Software",
+      "fork": false
+    },
+    {
+      "id": "flutterprojects-2021-2-mealapp",
+      "name": "FlutterProjects_2021_2_MealApp",
+      "signalScore": 27.6,
+      "category": "Web",
+      "fork": false
+    },
+    {
+      "id": "flutterprojects-2021-shop",
+      "name": "FlutterProjects_2021_Shop",
+      "signalScore": 27.6,
+      "category": "Web",
+      "fork": false
+    },
+    {
+      "id": "cnn-tensorflow-dl-clothes-classification-real-world-project-2021",
+      "name": "CNN_TensorFlow_DL_Clothes_Classification_Real_World_Project_2021",
+      "signalScore": 27.5,
+      "category": "AI",
+      "fork": false
+    },
+    {
+      "id": "multiple-linear-regression-with-dummies-exercise-solution",
+      "name": "Multiple-Linear-Regression-with-Dummies-Exercise-Solution",
+      "signalScore": 27.3,
+      "category": "Data Science",
+      "fork": false
+    },
+    {
+      "id": "logistic-regression",
+      "name": "logistic-regression",
+      "signalScore": 27.3,
+      "category": "Data Science",
+      "fork": false
+    },
+    {
+      "id": "imdb-dataset-of-50k-movie-reviews-kaggle",
+      "name": "IMDB-Dataset-of-50K-Movie-Reviews_kaggle",
+      "signalScore": 25.8,
+      "category": "Data Science",
+      "fork": false
+    },
+    {
+      "id": "the-sparks-foundation-data-science-and-business-analytics-task2",
+      "name": "the-Sparks-Foundation-Data-Science-And-Business-Analytics-Task2",
+      "signalScore": 25.8,
+      "category": "Data Science",
+      "fork": false
+    },
+    {
+      "id": "flask-api",
+      "name": "Flask_API",
+      "signalScore": 25.1,
+      "category": "Web",
+      "fork": false
+    },
+    {
+      "id": "futterprojects-personal-expanses",
+      "name": "FutterProjects_Personal_expanses",
+      "signalScore": 24.9,
+      "category": "Software",
+      "fork": false
+    },
+    {
+      "id": "database-project-2020-kiddy",
+      "name": "dataBase_Project_2020_Kiddy",
+      "signalScore": 24.8,
+      "category": "Software",
+      "fork": false
+    },
+    {
+      "id": "multithreading",
+      "name": "multithreading",
+      "signalScore": 24.6,
+      "category": "Python",
+      "fork": false
+    },
+    {
+      "id": "the-spark-foundation-task-3-eda",
+      "name": "the-spark-Foundation-Task-3-EDA-",
+      "signalScore": 24.6,
+      "category": "Data Science",
+      "fork": false
+    },
+    {
+      "id": "jasperreport-databaseproject-2020",
+      "name": "JasperReport_DataBaseProject_2020",
+      "signalScore": 23.9,
+      "category": "Software",
+      "fork": false
+    },
+    {
+      "id": "networkinginpython",
+      "name": "Networkinginpython",
+      "signalScore": 23.9,
+      "category": "Python",
+      "fork": false
+    },
+    {
+      "id": "security-project-2022",
+      "name": "Security_Project_2022",
+      "signalScore": 23.8,
+      "category": "Python",
+      "fork": false
+    },
+    {
+      "id": "projects-python",
+      "name": "Projects_Python",
+      "signalScore": 23.1,
+      "category": "Python",
+      "fork": false
+    },
+    {
+      "id": "newformatiing",
+      "name": "newformatiing",
+      "signalScore": 23.1,
+      "category": "Python",
+      "fork": false
+    },
+    {
+      "id": "task-5-spark",
+      "name": "Task-5-Spark",
+      "signalScore": 23.1,
+      "category": "Data Science",
+      "fork": false
+    },
+    {
+      "id": "springboot-backend-project-step-by-step",
+      "name": "SpringBoot_BackEnd_Project_Step_by_step",
+      "signalScore": 22.8,
+      "category": "Software",
+      "fork": false
+    },
+    {
+      "id": "k-mean-clustering",
+      "name": "K_Mean_Clustering-",
+      "signalScore": 22.8,
+      "category": "Data Science",
+      "fork": false
+    },
+    {
+      "id": "online-food-ordering-system-javafx",
+      "name": "Online_Food_ordering_system_JAVAFX",
+      "signalScore": 22.7,
+      "category": "Other",
+      "fork": false
+    },
+    {
+      "id": "task4-spark",
+      "name": "Task4-Spark",
+      "signalScore": 22.6,
+      "category": "Data Science",
+      "fork": false
+    },
+    {
+      "id": "web-project",
+      "name": "web-Project",
+      "signalScore": 22.2,
+      "category": "Other",
+      "fork": false
+    },
+    {
+      "id": "natural-language-processing----predict-sentiments-of-amazon",
+      "name": "Natural-Language-Processing----Predict-Sentiments-of-Amazon",
+      "signalScore": 21.8,
+      "category": "Data Science",
+      "fork": false
+    },
+    {
+      "id": "task-6-sparks-foundation",
+      "name": "TASK-6-Sparks-Foundation-",
+      "signalScore": 21.8,
+      "category": "Data Science",
+      "fork": false
+    },
+    {
+      "id": "pythonbasics-referencedbybookiused",
+      "name": "PythonBasics-ReferencedByBookIUsed",
+      "signalScore": 21.6,
+      "category": "Other",
+      "fork": false
+    },
+    {
+      "id": "trafficlight-digitaldesginlab-2020-multism",
+      "name": "TrafficLight_DigitalDesginLab_2020_Multism",
+      "signalScore": 21.6,
+      "category": "Other",
+      "fork": false
+    },
+    {
+      "id": "advanced-problem-solving-codeforces",
+      "name": "Advanced-Problem-SOlving-Codeforces-",
+      "signalScore": 21.2,
+      "category": "Other",
+      "fork": false
+    },
+    {
+      "id": "evaluation-project-angular-springboot",
+      "name": "evaluation_Project_Angular_SpringBoot",
+      "signalScore": 21.0,
+      "category": "Other",
+      "fork": false
+    },
+    {
+      "id": "30-6-2021formatting",
+      "name": "30-6-2021Formatting",
+      "signalScore": 8.1,
+      "category": "Python",
+      "fork": false
+    },
+    {
+      "id": "api-python",
+      "name": "API_Python",
+      "signalScore": 8.1,
+      "category": "Python",
+      "fork": false
+    },
+    {
+      "id": "coffeemachine",
+      "name": "CoffeeMachine",
+      "signalScore": 8.1,
+      "category": "Python",
+      "fork": false
+    },
+    {
+      "id": "python-networkingdeeper",
+      "name": "python-NetworkingDeeper",
+      "signalScore": 8.1,
+      "category": "Python",
+      "fork": false
+    },
+    {
+      "id": "flask-basics-documintation-tracking",
+      "name": "Flask_basics_documintation_tracking",
+      "signalScore": 7.8,
+      "category": "Web",
+      "fork": false
+    },
+    {
+      "id": "codingstandards",
+      "name": "CodingStandards",
+      "signalScore": 7.1,
+      "category": "Other",
+      "fork": false
+    },
+    {
+      "id": "lte-planning-atoll-wirelessproject",
+      "name": "LTE_Planning_Atoll_WirelessProject",
+      "signalScore": 7.1,
+      "category": "Other",
+      "fork": false
+    },
+    {
+      "id": "code-quality-and-formatting",
+      "name": "code-quality-and-formatting",
+      "signalScore": 7.1,
+      "category": "Other",
+      "fork": false
+    }
+  ]
+}
