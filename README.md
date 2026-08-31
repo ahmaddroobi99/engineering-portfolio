@@ -2,11 +2,15 @@
 
 Enterprise engineering portfolio and GitHub repository explorer for [ahmaddroobi99](https://github.com/ahmaddroobi99).
 
-The GitHub profile README still belongs in the username repository. This application is the **portfolio operating system** in front of that account: it discovers original public repositories at build time, ranks up to 50 of them with a transparent **Project Signal Score**, and presents each as a short case study.
+The GitHub **profile README** still belongs in the username repository. This application is the **portfolio operating system** in front of that account: it discovers original public repositories at build time, ranks up to 50 of them with a transparent **Project Signal Score**, and presents each as a short case study.
+
+**Live:** [ahmaddroobi99.github.io](https://ahmaddroobi99.github.io/)
+
+![Engineering portfolio](docs/demo.png)
 
 ## What this is
 
-- Home: identity, domains, 8 featured projects (breadth, not stars)
+- Home: identity, domains, featured projects (breadth, not stars)
 - Project explorer: search, filters, sort
 - Top 50: four-line summaries, images/GIFs when present
 - Project pages: mini case studies from README + GitHub metadata only
@@ -54,14 +58,8 @@ npm run lint
 npm run typecheck
 ```
 
-## Deploy
+## Related
 
-- **Netlify** (primary): `netlify.toml` — build `npm run build`, SPA fallback.
-- **GitHub Pages**: compatible as a static client export; keep a root `README.md` in the username repo so the profile README still renders.
-- **Vercel**: existing `vite` + Nitro preset.
-
-No secrets are committed. Public GitHub metadata only.
-
-## Future architecture (not built)
-
-GitHub API → indexer → database → search engine → portfolio API → web app.
+- Profile README: [ahmaddroobi99/ahmaddroobi99](https://github.com/ahmaddroobi99/ahmaddroobi99)
+- Academic site: [privatedro.github.io](https://privatedro.github.io/)
+- Featured lab: [qg-lada-lab](https://github.com/ahmaddroobi99/qg-lada-lab)
