@@ -61,5 +61,5 @@ npm run typecheck
 ## Related
 
 - Profile README: [ahmaddroobi99/ahmaddroobi99](https://github.com/ahmaddroobi99/ahmaddroobi99)
-- Academic site: [privatedro.github.io](https://privatedro.github.io/)
+- LinkedIn: [linkedin.com/in/droobi7](https://www.linkedin.com/in/droobi7/)
 - Featured lab: [qg-lada-lab](https://github.com/ahmaddroobi99/qg-lada-lab)
