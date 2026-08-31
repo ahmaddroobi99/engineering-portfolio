@@ -63,3 +63,8 @@ npm run typecheck
 - Profile README: [ahmaddroobi99/ahmaddroobi99](https://github.com/ahmaddroobi99/ahmaddroobi99)
 - LinkedIn: [linkedin.com/in/droobi7](https://www.linkedin.com/in/droobi7/)
 - Featured lab: [qg-lada-lab](https://github.com/ahmaddroobi99/qg-lada-lab)
+
+---
+
+Account grouping: research first, undergraduate last — see the [profile README](https://github.com/ahmaddroobi99/ahmaddroobi99). GitHub cannot custom-sort the Repositories tab.
+
